@@ -3073,7 +3073,7 @@ Stores,Kaupat,module,Magento_Config
 "Tab Label","Tab Label",module,Magento_Config
 "Allow everything","Salli kaikki",module,Magento_Config
 "Magento Admin","Magento Admin",module,Magento_Config
-Dashboard,Dashboard,module,Magento_Config
+Dashboard,Hallintasivu,module,Magento_Config
 "Manage Stores","Hallinnoi kauppoja",module,Magento_Config
 "Field 2","Kenttä 2",module,Magento_Config
 "Field 3","Field 3",module,Magento_Config
@@ -3743,7 +3743,7 @@ Name,Nimi,module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Customer
 Email:,Sähköposti:,module,Magento_Customer
 Password:,Salasana:,module,Magento_Customer
-"Password you set when creating account","Password you set when creating account",module,Magento_Customer
+"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:",module,Magento_Customer
 "Proceed through checkout faster","Ostaa nopeammin",module,Magento_Customer
@@ -3825,7 +3825,7 @@ Strong,Vahva,module,Magento_Customer
 "Please enter a number 1 or greater in this field.","Please enter a number 1 or greater in this field.",module,Magento_Customer
 "Number of Required Character Classes","Number of Required Character Classes",module,Magento_Customer
 "Number of different character classes required in password: Lowercase, Uppercase, Digits, Special Characters.","Number of different character classes required in password: Lowercase, Uppercase, Digits, Special Characters.",module,Magento_Customer
-"Minimum Password Length","Minimum Password Length",module,Magento_Customer
+"Minimum Password Length","Salasanan vähimmäispituus",module,Magento_Customer
 "Maximum Login Failures to Lockout Account","Maximum Login Failures to Lockout Account",module,Magento_Customer
 "Use 0 to disable account locking.","Use 0 to disable account locking.",module,Magento_Customer
 "Lockout Time (minutes)","Lockout Time (minutes)",module,Magento_Customer
@@ -3883,7 +3883,7 @@ Type,Tyyppi,module,Magento_Customer
 "Send Welcome Email From","Send Welcome Email From",module,Magento_Customer
 Addresses,Addresses,module,Magento_Customer
 "Are you sure you want to delete this item?","Are you sure you want to delete this item?",module,Magento_Customer
-"Account Dashboard","Account Dashboard",module,Magento_Customer
+"Account Dashboard","Tilin hallintapaneeli",module,Magento_Customer
 "Edit Account Information","Muokkaa tilin tietoja",module,Magento_Customer
 "Password forgotten","Salasana unohtunut",module,Magento_Customer
 "My Dashboard","Oma sivuni",module,Magento_Customer
@@ -4078,7 +4078,7 @@ Country,Country,module,Magento_CustomerCustomAttributes
 "Change Password","Vaihda salasana",module,Magento_CustomerCustomAttributes
 "Change Email and Password","Vaihda sähköpostiosoite ja salasana",module,Magento_CustomerCustomAttributes
 Email,Sähköposti,module,Magento_CustomerCustomAttributes
-"Current Password","Current Password",module,Magento_CustomerCustomAttributes
+"Current Password","Nykyinen salasana",module,Magento_CustomerCustomAttributes
 "New Password","Uusi salasana",module,Magento_CustomerCustomAttributes
 "Password Strength","Salasanan vahvuus",module,Magento_CustomerCustomAttributes
 "No Password","Ei salasanaa",module,Magento_CustomerCustomAttributes
@@ -5991,7 +5991,7 @@ OAuth,OAuth,module,Magento_Integration
 "Integration configuration file","Integration configuration file",module,Magento_Integration
 "Integrations API Configuration","Integrations API Configuration",module,Magento_Integration
 "Integrations API configuration file","Integrations API configuration file",module,Magento_Integration
-"We couldn't find any records.","Emme löytäneet yhtään tietuetta.",module,Magento_Integration
+"We couldn't find any records.","Yhtään tietuetta ei löytynyt.",module,Magento_Integration
 Status,Tila,module,Magento_Integration
 Invitations,Kutsut,module,Magento_Invitation
 "Add Invitations","Lisää kutsuja",module,Magento_Invitation
@@ -7974,7 +7974,7 @@ Orders,Tilaukset,module,Magento_Reports
 "Total Ordered Report","Total Ordered Report",module,Magento_Reports
 "Sales Items","Myynnin tuotteet",module,Magento_Reports
 Items,Tuotteet,module,Magento_Reports
-Revenue,Revenue,module,Magento_Reports
+Revenue,Tulot,module,Magento_Reports
 Profit,Profit,module,Magento_Reports
 Invoiced,Laskutettu,module,Magento_Reports
 Paid,Maksettu,module,Magento_Reports
@@ -8091,7 +8091,7 @@ Ordered,Ordered,module,Magento_Reports
 "Show for Current","Show for Current",module,Magento_Reports
 "Default Recently Viewed Products Count","Default Recently Viewed Products Count",module,Magento_Reports
 "Default Recently Compared Products Count","Default Recently Compared Products Count",module,Magento_Reports
-Dashboard,Dashboard,module,Magento_Reports
+Dashboard,Hallintasivu,module,Magento_Reports
 "Year-To-Date Starts","Year-To-Date Starts",module,Magento_Reports
 "Current Month Starts","Nykyinen kuukausi alkaa",module,Magento_Reports
 "Select day of the month.","Select day of the month.",module,Magento_Reports
@@ -9542,7 +9542,7 @@ Enable,Enable,module,Magento_Sales
 "We'll use the default description above if you leave this empty.","We'll use the default description above if you leave this empty.",module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart","Multi-address Error to Show in Shopping Cart",module,Magento_Sales
 "We'll use the default error above if you leave this empty.","We'll use the default error above if you leave this empty.",module,Magento_Sales
-Dashboard,Dashboard,module,Magento_Sales
+Dashboard,Hallintasivu,module,Magento_Sales
 "Use Aggregated Data","Use Aggregated Data",module,Magento_Sales
 "Orders Cron Settings","Orders Cron Settings",module,Magento_Sales
 "Pending Payment Order Lifetime (minutes)","Pending Payment Order Lifetime (minutes)",module,Magento_Sales
@@ -11945,7 +11945,7 @@ USPS,USPS,module,Magento_Usps
 "Secure Gateway URL","Secure Gateway URL",module,Magento_Usps
 Title,Title,module,Magento_Usps
 "User ID","User ID",module,Magento_Usps
-Password,Password,module,Magento_Usps
+Password,Salasana,module,Magento_Usps
 Mode,Mode,module,Magento_Usps
 "Packages Request Type","Packages Request Type",module,Magento_Usps
 Container,Container,module,Magento_Usps
