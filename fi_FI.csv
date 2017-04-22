@@ -10,12 +10,12 @@ None,"Ei yhtään",module,Magento_AdminGws
 "You need more permissions to delete this item.","Tämän kohteen poistaminen vaatii enemmän käyttöoikeuksia.",module,Magento_AdminGws
 "You need more permissions to view this item.","Tämän kohteen tarkasteleminen vaatii enemmän käyttöoikeuksia.",module,Magento_AdminGws
 "Please specify at least one website or one store group.","Määritä vähintään yksi sivusto tai yksi kaupparyhmä.",module,Magento_AdminGws
-"You need more permissions to set All Scopes to a Role.","You need more permissions to set All Scopes to a Role.",module,Magento_AdminGws
+"You need more permissions to set All Scopes to a Role.","Tarvitset enemmän oikeuksia asettaaksesi kaikki toimintaoikeudet roolille.",module,Magento_AdminGws
 "Incorrect website ID: %1","Virheellinen sivuston tunnus: %1",module,Magento_AdminGws
 "You need more permissions to access website ""%1"".","Lisää käyttöoikeuksia tarvitaan pääsemiseksi sivustolle ""%1"".",module,Magento_AdminGws
 "Incorrect store ID: %1","Virheellinen kaupan tunnus: %1",module,Magento_AdminGws
 "You need more permissions to save this setting.","Tämän asetuksen tallentaminen vaatii laajemmat käyttöoikeudet.",module,Magento_AdminGws
-"Role Scopes","Role Scopes",module,Magento_AdminGws
+"Role Scopes","Roolien toimintaoikeudet",module,Magento_AdminGws
 Custom,Mukautettu,module,Magento_AdminGws
 "Read Details",Lisätietoja,module,Magento_AdminNotification
 "Mark as Read","Merkitse luetuksi",module,Magento_AdminNotification
@@ -236,34 +236,34 @@ Edit,Muokkaa,module,Magento_AdvancedSearch
 "RPC call failed, connection timed out after %time_out.","RPC-kutsu epäonnistui, yhteys aikakatkaistiin %time_out jälkeen.",module,Magento_Amqp
 "Message has been rejected: %1","Viesti on hylätty: %1",module,Magento_Amqp
 "Error while checking if topic is synchronous","Virhe tarkistettaessa, onko aihe on synkroninen",module,Magento_Amqp
-"Subscription status","Subscription status",module,Magento_Analytics
+"Subscription status","Tilauksen tila",module,Magento_Analytics
 "Sorry, there has been an error processing your request. Please try again later.","Valitettavasti tapahtui virhe käsiteltäessä pyyntöä. Yritä myöhemmin uudelleen.",module,Magento_Analytics
-"Sorry, there was an error processing your registration request to Magento Analytics. Please try again later.","Sorry, there was an error processing your registration request to Magento Analytics. Please try again later.",module,Magento_Analytics
-"Error occurred during postponement notification","Error occurred during postponement notification",module,Magento_Analytics
-"Command was not found.","Command was not found.",module,Magento_Analytics
+"Sorry, there was an error processing your registration request to Magento Analytics. Please try again later.","Valitettavasti Magento Analytics-rekisteröintipyyntöä käsiteltäessä tapahtui virhe. Yritä myöhemmin uudelleen.",module,Magento_Analytics
+"Error occurred during postponement notification","Lykkäysilmoituksen aikana tapahtui virhe",module,Magento_Analytics
+"Command was not found.","Komentoa ei löydy.",module,Magento_Analytics
 "There was an error save new configuration value.","There was an error save new configuration value.",module,Magento_Analytics
 "Please select a vertical.","Please select a vertical.",module,Magento_Analytics
 "--Please Select--",---Valitse---,module,Magento_Analytics
 "Cannot find predefined integration user!","Cannot find predefined integration user!",module,Magento_Analytics
-TestMessage,TestMessage,module,Magento_Analytics
-"Error message","Error message",module,Magento_Analytics
-"Apps and Games","Apps and Games",module,Magento_Analytics
+TestMessage,TestiViesti,module,Magento_Analytics
+"Error message",Virhesanoma,module,Magento_Analytics
+"Apps and Games","Sovellukset ja pelit",module,Magento_Analytics
 "Athletic/Sporting Goods","Athletic/Sporting Goods",module,Magento_Analytics
-"Art and Design","Art and Design",module,Magento_Analytics
+"Art and Design","Taide ja design",module,Magento_Analytics
 "Free Tier","Free Tier",module,Magento_Analytics
 "An error occurred while subscription process.","An error occurred while subscription process.",module,Magento_Analytics
 Analytics,Analytics,module,Magento_Analytics
 API,API,module,Magento_Analytics
-Configuration,Configuration,module,Magento_Analytics
+Configuration,Asetukset,module,Magento_Analytics
 "BI Essential","BI Essential",module,Magento_Analytics
 "Basic Tier","Basic Tier",module,Magento_Analytics
 "BI Essentials","BI Essentials",module,Magento_Analytics
-General,General,module,Magento_Analytics
+General,Yleiset,module,Magento_Analytics
 "Send the system and transaction data to Magento Analytics service","Send the system and transaction data to Magento Analytics service",module,Magento_Analytics
 Vertical,Vertical,module,Magento_Analytics
 "Analytics Subscription","Analytics Subscription",module,Magento_Analytics
 "Subscription Confirmation","Subscription Confirmation",module,Magento_Analytics
-Cancel,Cancel,module,Magento_Analytics
+Cancel,Peruuta,module,Magento_Analytics
 Ok,Ok,module,Magento_Analytics
 "I agree with sending my system
                             configuration and transaction data to Magento Analytics.","I agree with sending my system
@@ -524,7 +524,7 @@ Submit,Lähetä,module,Magento_Backend
 "You flushed the cache storage.","Tyhjensit välimuistitilan.",module,Magento_Backend
 "The Magento cache storage has been flushed.","Magenton välimuistitila on tyhjennetty.",module,Magento_Backend
 "Cache Management","Välimuistin hallinta",module,Magento_Backend
-"You can't change status of cache type(s) in production mode","You can't change status of cache type(s) in production mode",module,Magento_Backend
+"You can't change status of cache type(s) in production mode","Välimuistityyppien tilaa ei voida muuttaa tuotantotilassa",module,Magento_Backend
 "%1 cache type(s) disabled.","%1 välimuistityyppi(ä) poistettu käytöstä.",module,Magento_Backend
 "An error occurred while disabling cache.","Tapahtui virhe poistettaessa välimuistia käytöstä.",module,Magento_Backend
 "%1 cache type(s) enabled.","%1 välimuistityyppi(ä) käytössä.",module,Magento_Backend
@@ -654,7 +654,7 @@ Thumbnail,Pienoiskuva,module,Magento_Backend
 selected,valittu,module,Magento_Backend
 "per page","per sivu",module,Magento_Backend
 "Previous page","Edellinen sivu",module,Magento_Backend
-"of %1","of %1",module,Magento_Backend
+"of %1","/ %1",module,Magento_Backend
 "Next page","Seuraava sivu",module,Magento_Backend
 "Export to:",Vieminen:,module,Magento_Backend
 Actions,Toiminnot,module,Magento_Backend
@@ -952,7 +952,7 @@ Position,Sijainti,module,Magento_Banner
 "This banner no longer exists.","This banner no longer exists.",module,Magento_Banner
 "Edit Banner","Edit Banner",module,Magento_Banner
 "Please select a banner(s).","Please select a banner(s).",module,Magento_Banner
-"You deleted %1 record(s).","You deleted %1 record(s).",module,Magento_Banner
+"You deleted %1 record(s).","%1 merkintä(ä) poistettu.",module,Magento_Banner
 "Something went wrong while mass-deleting banners. Please review the action log and try again.","Something went wrong while mass-deleting banners. Please review the action log and try again.",module,Magento_Banner
 "You saved the banner.","You saved the banner.",module,Magento_Banner
 "We cannot save the banner.","We cannot save the banner.",module,Magento_Banner
@@ -1511,7 +1511,7 @@ Categories,Kategoriat,module,Magento_Catalog
 "Something went wrong while saving the category.","Something went wrong while saving the category.",module,Magento_Catalog
 "Please select products for attributes update.","Please select products for attributes update.",module,Magento_Catalog
 "Please make sure to define SKU values for all processed products.","Please make sure to define SKU values for all processed products.",module,Magento_Catalog
-"A total of %1 record(s) were updated.","A total of %1 record(s) were updated.",module,Magento_Catalog
+"A total of %1 record(s) were updated.","Yhteensä %1 tietue(tta) päivitettiin.",module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","Something went wrong while updating the product(s) attributes.",module,Magento_Catalog
 "Unable to add attribute","Unable to add attribute",module,Magento_Catalog
 "Please, specify attributes","Please, specify attributes",module,Magento_Catalog
@@ -1537,8 +1537,8 @@ Catalog,Katalogi,module,Magento_Catalog
 Products,Tuotteet,module,Magento_Catalog
 "A group with the same name already exists.","A group with the same name already exists.",module,Magento_Catalog
 "Something went wrong while saving this group.","Something went wrong while saving this group.",module,Magento_Catalog
-"A total of %1 record(s) have been deleted.","A total of %1 record(s) have been deleted.",module,Magento_Catalog
-"A total of %1 record(s) have been updated.","A total of %1 record(s) have been updated.",module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty.",module,Magento_Catalog
 "Something went wrong while updating the product(s) status.","Something went wrong while updating the product(s) status.",module,Magento_Catalog
 "Unable to save product","Tuotetta ei voida tallentaa",module,Magento_Catalog
 "You saved the product.","Tuote tallennettiin.",module,Magento_Catalog
@@ -1559,7 +1559,7 @@ Products,Tuotteet,module,Magento_Catalog
 "You removed product %1 from the comparison list.","Poistit tuotteen %1 vertailulistalta.",module,Magento_Catalog
 "1 item","1 tuote",module,Magento_Catalog
 "%1 items","%1 tuotetta",module,Magento_Catalog
-"Are you sure you want to remove this item from your Compare Products list?","Are you sure you want to remove this item from your Compare Products list?",module,Magento_Catalog
+"Are you sure you want to remove this item from your Compare Products list?","Oletko varma, että haluat poistaa tämän tuotteen vertailusta?",module,Magento_Catalog
 "Are you sure you want to remove all items from your Compare Products list?","Are you sure you want to remove all items from your Compare Products list?",module,Magento_Catalog
 "Invalid attribute %1","Virheellinen attribuutti %1",module,Magento_Catalog
 Grid,Ruudukko,module,Magento_Catalog
@@ -2303,7 +2303,7 @@ Type,Tyyppi,module,Magento_CatalogRule
 "Attribute Set",Attribuuttiryhmä,module,Magento_CatalogRule
 SKU,Tuotenro,module,Magento_CatalogRule
 Product,Tuote,module,Magento_CatalogRule
-Promotions,Promotions,module,Magento_CatalogRule
+Promotions,Myynninedistäminen,module,Magento_CatalogRule
 "We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.",module,Magento_CatalogRule
 "We can't apply the rules.","Sääntöjä ei voida ottaa käyttöön.",module,Magento_CatalogRule
 "You deleted the rule.","Poistit säännön.",module,Magento_CatalogRule
@@ -2726,6 +2726,7 @@ Payment,Maksu,module,Magento_Checkout
 "Not yet calculated","Ei ole vielä laskettu",module,Magento_Checkout
 "We received your order!","Olemme vastaanottaneet tilauksesi!",module,Magento_Checkout
 "Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Checkout
+"Go to Checkout","Siirry kassalle",module,Magento_Checkout
 "Terms and Conditions",Käyttöehdot,module,Magento_CheckoutAgreements
 "Add New Condition","Lisää ehto",module,Magento_CheckoutAgreements
 "Save Condition","Tallenna ehto",module,Magento_CheckoutAgreements
@@ -2859,7 +2860,7 @@ Exception,Exception,module,Magento_Cms
 Edit,Muokkaa,module,Magento_Cms
 Delete,Poista,module,Magento_Cms
 "Delete %1","Delete %1",module,Magento_Cms
-"Are you sure you wan't to delete a %1 record?","Are you sure you wan't to delete a %1 record?",module,Magento_Cms
+"Are you sure you wan't to delete a %1 record?","Haluatko varmasti poistaa %1 tietueen?",module,Magento_Cms
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Cms
 View,View,module,Magento_Cms
 px.,px.,module,Magento_Cms
@@ -2869,7 +2870,7 @@ px.,px.,module,Magento_Cms
 "Expand All","Expand All",module,Magento_Cms
 "We could not detect a size.","We could not detect a size.",module,Magento_Cms
 "Media Gallery","Media Gallery",module,Magento_Cms
-"Content Management","Content Management",module,Magento_Cms
+"Content Management","Sisällön hallinta",module,Magento_Cms
 "CMS Home Page","CMS Home Page",module,Magento_Cms
 "CMS No Route Page","CMS No Route Page",module,Magento_Cms
 "CMS No Cookies Page","CMS No Cookies Page",module,Magento_Cms
@@ -2998,7 +2999,7 @@ Configuration,Configuration,module,Magento_Config
 %1,%1,module,Magento_Config
 "Configuration for path: ""%1"" doesn't exist","Configuration for path: ""%1"" doesn't exist",module,Magento_Config
 System,Järjestelmä,module,Magento_Config
-"You saved the configuration.","You saved the configuration.",module,Magento_Config
+"You saved the configuration.","Asetukset on tallennettu.",module,Magento_Config
 "Something went wrong while saving this configuration:","Tapahtui virhe tallennettaessa tätä asetusta:",module,Magento_Config
 "Page not found.","Sivua ei löydy.",module,Magento_Config
 "Please specify the admin custom URL.","Please specify the admin custom URL.",module,Magento_Config
@@ -3020,7 +3021,7 @@ System,Järjestelmä,module,Magento_Config
 "The base directory to upload file is not specified.","The base directory to upload file is not specified.",module,Magento_Config
 "The specified image adapter cannot be used because of: %1","The specified image adapter cannot be used because of: %1",module,Magento_Config
 "Default scope","Default scope",module,Magento_Config
-"Base currency",Perusvaluutta,module,Magento_Config
+"Base currency",Oletusvaluutta,module,Magento_Config
 "Display default currency","Display default currency",module,Magento_Config
 "website(%1) scope","website(%1) scope",module,Magento_Config
 "store(%1) scope","store(%1) scope",module,Magento_Config
@@ -3085,7 +3086,7 @@ Dashboard,Hallintasivu,module,Magento_Config
 "Design Section","Design Section",module,Magento_Config
 "General Section","General Section",module,Magento_Config
 "System Section","System Section",module,Magento_Config
-"Currency Setup Section","Currency Setup Section",module,Magento_Config
+"Currency Setup Section","Valuutan asetukset-osio",module,Magento_Config
 "Developer Section","Developer Section",module,Magento_Config
 "Web Section","Web Section",module,Magento_Config
 "Store Email Addresses Section","Store Email Addresses Section",module,Magento_Config
@@ -3786,7 +3787,7 @@ Strong,Vahva,module,Magento_Customer
 "All Customers","Kaikki asiakkaat",module,Magento_Customer
 "Now Online","Nyt paikalla",module,Magento_Customer
 "Customers Section","Customers Section",module,Magento_Customer
-"Customer Configuration","Customer Configuration",module,Magento_Customer
+"Customer Configuration","Asiakkaiden hallinnointi",module,Magento_Customer
 "Account Sharing Options","Account Sharing Options",module,Magento_Customer
 "Share Customer Accounts","Share Customer Accounts",module,Magento_Customer
 "Create New Account Options","Create New Account Options",module,Magento_Customer
@@ -4006,7 +4007,7 @@ Yes,Kyllä,module,Magento_CustomerCustomAttributes
 "Store View",Kauppanäkymä,module,Magento_CustomerCustomAttributes
 "Form Code","Form Code",module,Magento_CustomerCustomAttributes
 "Form Title","Form Title",module,Magento_CustomerCustomAttributes
-General,General,module,Magento_CustomerCustomAttributes
+General,Yleiset,module,Magento_CustomerCustomAttributes
 "New Fieldset","New Fieldset",module,Magento_CustomerCustomAttributes
 Save,Tallenna,module,Magento_CustomerCustomAttributes
 Remove,Poista,module,Magento_CustomerCustomAttributes
@@ -4454,12 +4455,12 @@ Currency,Valuutta,module,Magento_Directory
 "Your current currency is: %1.","Nykyinen valuuttasi on: %1.",module,Magento_Directory
 Continue,Jatka,module,Magento_Directory
 "Currency Update Warnings","Currency Update Warnings",module,Magento_Directory
-"Currency Setup","Currency Setup",module,Magento_Directory
+"Currency Setup",Valuutta-asetukset,module,Magento_Directory
 "Currency Options","Currency Options",module,Magento_Directory
-"Base Currency","Base Currency",module,Magento_Directory
+"Base Currency",Oletusvaluutta,module,Magento_Directory
 "Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").","Base currency is used for all online payment transactions. The base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").",module,Magento_Directory
 "Default Display Currency","Default Display Currency",module,Magento_Directory
-"Allowed Currencies","Allowed Currencies",module,Magento_Directory
+"Allowed Currencies","Sallitut valuutat",module,Magento_Directory
 "Yahoo Finance Exchange","Yahoo Finance Exchange",module,Magento_Directory
 "Connection Timeout in Seconds","Yhteyden aikakatkaisu sekunteina",module,Magento_Directory
 Fixer.io,Fixer.io,module,Magento_Directory
@@ -5111,7 +5112,7 @@ History,History,module,Magento_GiftCardAccount
 "We were unable to generate a new code pool.","We were unable to generate a new code pool.",module,Magento_GiftCardAccount
 "Code Pool used: <b>%1%</b> (free <b>%2</b> of <b>%3</b> total). Generate new code pool <a href=""%4"">here</a>.","Code Pool used: <b>%1%</b> (free <b>%2</b> of <b>%3</b> total). Generate new code pool <a href=""%4"">here</a>.",module,Magento_GiftCardAccount
 "Please select a gift card account(s)","Please select a gift card account(s)",module,Magento_GiftCardAccount
-"You deleted a total of %1 records.","You deleted a total of %1 records.",module,Magento_GiftCardAccount
+"You deleted a total of %1 records.","Yhteensä %1 merkintää poistettu.",module,Magento_GiftCardAccount
 "You saved the gift card account.","You saved the gift card account.",module,Magento_GiftCardAccount
 "An email was not sent because the gift card account is not active.","An email was not sent because the gift card account is not active.",module,Magento_GiftCardAccount
 "You saved the gift card account, but an email was not sent.","You saved the gift card account, but an email was not sent.",module,Magento_GiftCardAccount
@@ -5585,12 +5586,12 @@ Image,Kuva,module,Magento_GiftWrapping
 [WEBSITE],[VERKKOKAUPPA],module,Magento_GiftWrapping
 "[STORE VIEW]",[KAUPPANÄKYMÄ],module,Magento_GiftWrapping
 "Please request the correct gift wrapping.","Please request the correct gift wrapping.",module,Magento_GiftWrapping
-"You updated a total of %1 records.","You updated a total of %1 records.",module,Magento_GiftWrapping
+"You updated a total of %1 records.","Yhteensä %1 merkintää päivitetty.",module,Magento_GiftWrapping
 "Something went wrong while updating the wrapping(s) status.","Something went wrong while updating the wrapping(s) status.",module,Magento_GiftWrapping
 "You deleted the gift wrapping.","You deleted the gift wrapping.",module,Magento_GiftWrapping
 %1,%1,module,Magento_GiftWrapping
 "Please select items.","Valitse kohteet.",module,Magento_GiftWrapping
-"You deleted a total of %1 records.","You deleted a total of %1 records.",module,Magento_GiftWrapping
+"You deleted a total of %1 records.","Yhteensä %1 merkintää poistettu.",module,Magento_GiftWrapping
 "You have not uploaded the image.","Kuvaa ei ole lähetetty.",module,Magento_GiftWrapping
 "You saved the gift wrapping.","You saved the gift wrapping.",module,Magento_GiftWrapping
 "We can't save the gift wrapping right now.","We can't save the gift wrapping right now.",module,Magento_GiftWrapping
@@ -5881,7 +5882,7 @@ Save,Tallenna,module,Magento_Integration
 "New Integration","Uusi integraatio",module,Magento_Integration
 "Edit Integration '%1'","Edit Integration '%1'",module,Magento_Integration
 "Integration Info","Integration Info",module,Magento_Integration
-General,General,module,Magento_Integration
+General,Yleiset,module,Magento_Integration
 Name,Nimi,module,Magento_Integration
 Email,Sähköposti,module,Magento_Integration
 "Callback URL","Callback URL",module,Magento_Integration
@@ -6009,7 +6010,7 @@ Back,Takaisin,module,Magento_Invitation
 "Are you sure you want to discard this invitation?","Are you sure you want to discard this invitation?",module,Magento_Invitation
 "Save Invitation","Save Invitation",module,Magento_Invitation
 "Send Invitation","Lähetä kutsu",module,Magento_Invitation
-General,General,module,Magento_Invitation
+General,Yleiset,module,Magento_Invitation
 "Default from System Configuration","Default from System Configuration",module,Magento_Invitation
 N/A,"Ei tietoa",module,Magento_Invitation
 "Status History","Status History",module,Magento_Invitation
@@ -6215,7 +6216,7 @@ View,View,module,Magento_Logging
 Save,Tallenna,module,Magento_Logging
 Delete,Poista,module,Magento_Logging
 "Mass Delete","Mass Delete",module,Magento_Logging
-Export,Export,module,Magento_Logging
+Export,Vie,module,Magento_Logging
 Import,Import,module,Magento_Logging
 Edit,Muokkaa,module,Magento_Logging
 "Mass Update","Mass Update",module,Magento_Logging
@@ -6254,7 +6255,7 @@ Customers,Asiakkaat,module,Magento_Logging
 Reports,Raportit,module,Magento_Logging
 "System Configuration","System Configuration",module,Magento_Logging
 "Catalog Price Rules","Tuoteluettelon hintasäännöt",module,Magento_Logging
-"Cart Price Rules","Cart Price Rules",module,Magento_Logging
+"Cart Price Rules","Ostoskorin hintasäännöt",module,Magento_Logging
 "Admin My Account","Admin My Account",module,Magento_Logging
 "Newsletter Queue",Uutiskirjejono,module,Magento_Logging
 "Newsletter Templates","Uutiskirjeiden mallipohjat",module,Magento_Logging
@@ -6270,7 +6271,7 @@ Reports,Raportit,module,Magento_Logging
 "Manage Websites","Manage Websites",module,Magento_Logging
 "Manage Stores","Hallinnoi kauppoja",module,Magento_Logging
 "Manage Store Views","Hallinnoi kauppanäkymiä",module,Magento_Logging
-"Manage Design","Manage Design",module,Magento_Logging
+"Manage Design","Ulkoasun hallinta",module,Magento_Logging
 "Manage Currency Rates","Manage Currency Rates",module,Magento_Logging
 "Transactional Emails","Transactional Emails",module,Magento_Logging
 "Custom Variables","Custom Variables",module,Magento_Logging
@@ -6545,7 +6546,7 @@ Total,Yhteensä,module,Magento_Multishipping
 "Shipping Information","Shipping Information",module,Magento_Multishipping
 "Billing Information","Billing Information",module,Magento_Multishipping
 "Place Order","Place Order",module,Magento_Multishipping
-"Order Success","Order Success",module,Magento_Multishipping
+"Order Success","Tilaus onnistui",module,Magento_Multishipping
 "Default Billing","Default Billing",module,Magento_Multishipping
 "Default Shipping","Default Shipping",module,Magento_Multishipping
 "Select Address","Select Address",module,Magento_Multishipping
@@ -7779,7 +7780,7 @@ N/A,"Ei tietoa",module,Magento_Reminder
 "Reminder emails may promote a cart price rule with or without a coupon. If a cart price rule defines an auto-generated coupon, this reminder rule will generate a random coupon code for each customer.","Reminder emails may promote a cart price rule with or without a coupon. If a cart price rule defines an auto-generated coupon, this reminder rule will generate a random coupon code for each customer.",module,Magento_Reminder
 "Rule Name","Rule Name",module,Magento_Reminder
 Description,Kuvaus,module,Magento_Reminder
-"Cart Price Rule","Cart Price Rule",module,Magento_Reminder
+"Cart Price Rule","Ostoskorin hintasääntö",module,Magento_Reminder
 "Promotion rule this reminder will advertise.","Promotion rule this reminder will advertise.",module,Magento_Reminder
 "Assigned to Website","Assigned to Website",module,Magento_Reminder
 Status,Status,module,Magento_Reminder
@@ -8042,7 +8043,7 @@ Coupons,Alennuskoodit,module,Magento_Reports
 "Shipping Report","Shipping Report",module,Magento_Reports
 "Tax Report",Veroraportti,module,Magento_Reports
 "Shopping Cart",Ostoskori,module,Magento_Reports
-"Abandoned Carts","Abandoned Carts",module,Magento_Reports
+"Abandoned Carts","Hylätyt ostoskorit",module,Magento_Reports
 "Customer Shopping Carts","Customer Shopping Carts",module,Magento_Reports
 "Products in Carts","Products in Carts",module,Magento_Reports
 Statistics,Tilastot,module,Magento_Reports
@@ -8080,8 +8081,8 @@ Marketing,Markkinointi,module,Magento_Reports
 "Products in Cart","Tuotteita ostoskorissa",module,Magento_Reports
 "Abandoned Cart","Hylätty ostoskori",module,Magento_Reports
 "Search Terms",Hakusanat,module,Magento_Reports
-"By Customers","By Customers",module,Magento_Reports
-"By Products","By Products",module,Magento_Reports
+"By Customers",Asiakkaittain,module,Magento_Reports
+"By Products",Tuotteittain,module,Magento_Reports
 Refunds,Refunds,module,Magento_Reports
 "Order Total","Order Total",module,Magento_Reports
 "Order Count","Order Count",module,Magento_Reports
@@ -8205,9 +8206,9 @@ Reviews,Arvostelut,module,Magento_Review
 "Edit Review","Muokkaa arvostelua",module,Magento_Review
 "We can't retrieve the product ID.","We can't retrieve the product ID.",module,Magento_Review
 "Please select review(s).","Please select review(s).",module,Magento_Review
-"A total of %1 record(s) have been deleted.","A total of %1 record(s) have been deleted.",module,Magento_Review
+"A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu.",module,Magento_Review
 "Something went wrong while deleting these records.","Something went wrong while deleting these records.",module,Magento_Review
-"A total of %1 record(s) have been updated.","A total of %1 record(s) have been updated.",module,Magento_Review
+"A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty.",module,Magento_Review
 "Something went wrong while updating these review(s).","Something went wrong while updating these review(s).",module,Magento_Review
 "You saved the review.","You saved the review.",module,Magento_Review
 "Something went wrong while saving this review.","Something went wrong while saving this review.",module,Magento_Review
@@ -8261,8 +8262,8 @@ Summary,Yhteenveto,module,Magento_Review
 "Product Rating:","Product Rating:",module,Magento_Review
 "Product Review (submitted on %1):","Product Review (submitted on %1):",module,Magento_Review
 "Back to Product Reviews","Back to Product Reviews",module,Magento_Review
-"By Customers","By Customers",module,Magento_Review
-"By Products","By Products",module,Magento_Review
+"By Customers",Asiakkaittain,module,Magento_Review
+"By Products",Tuotteittain,module,Magento_Review
 "Allow Guests to Write Reviews","Allow Guests to Write Reviews",module,Magento_Review
 Active,Active,module,Magento_Review
 Inactive,Inaktiivinen,module,Magento_Review
@@ -8999,7 +9000,7 @@ Transactions,Tapahtumat,module,Magento_Sales
 Any,Any,module,Magento_Sales
 Specified,Specified,module,Magento_Sales
 "Applies to Any of the Specified Order Statuses except canceled orders","Applies to Any of the Specified Order Statuses except canceled orders",module,Magento_Sales
-"Cart Price Rule","Cart Price Rule",module,Magento_Sales
+"Cart Price Rule","Ostoskorin hintasääntö",module,Magento_Sales
 Yes,Kyllä,module,Magento_Sales
 No,Ei,module,Magento_Sales
 "Show Actual Values","Show Actual Values",module,Magento_Sales
@@ -9518,7 +9519,7 @@ Create,Luo,module,Magento_Sales
 "Send Sales Emails","Send Sales Emails",module,Magento_Sales
 "Sales Section","Sales Section",module,Magento_Sales
 "Sales Emails Section","Sales Emails Section",module,Magento_Sales
-General,General,module,Magento_Sales
+General,Yleiset,module,Magento_Sales
 "Hide Customer IP","Piilota asiakkaan IP",module,Magento_Sales
 "Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.","Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.",module,Magento_Sales
 "Checkout Totals Sort Order","Checkout Totals Sort Order",module,Magento_Sales
@@ -9751,14 +9752,14 @@ End,End,module,Magento_SalesRule
 Status,Tila,module,Magento_SalesRule
 "%1 - Discounts and Coupons","%1 - Discounts and Coupons",module,Magento_SalesRule
 Coupons/Discounts,Coupons/Discounts,module,Magento_SalesRule
-Promotions,Promotions,module,Magento_SalesRule
+Promotions,Myynninedistäminen,module,Magento_SalesRule
 "You deleted the rule.","You deleted the rule.",module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.","Sääntöä ei voida poistaa juuri nyt. Tarkista loki ja yritä uudelleen.",module,Magento_SalesRule
 "We can't find a rule to delete.","Poistettavaa sääntöä ei löydy.",module,Magento_SalesRule
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa.",module,Magento_SalesRule
 "Edit Rule","Muokkaa sääntöä",module,Magento_SalesRule
 "New Rule","Uusi sääntö",module,Magento_SalesRule
-"New Cart Price Rule","New Cart Price Rule",module,Magento_SalesRule
+"New Cart Price Rule","Uusi ostoskorin hintasääntö",module,Magento_SalesRule
 "Rule is not defined","Rule is not defined",module,Magento_SalesRule
 "Invalid data provided","Invalid data provided",module,Magento_SalesRule
 "%1 coupon(s) have been generated.","%1 coupon(s) have been generated.",module,Magento_SalesRule
@@ -9837,12 +9838,12 @@ Inactive,Inactive,module,Magento_SalesRule
 "Apply Discount","Apply Discount",module,Magento_SalesRule
 "Cancel coupon","Peruuta alennuskoodi",module,Magento_SalesRule
 "Your coupon was successfully removed.","Your coupon was successfully removed.",module,Magento_SalesRule
-"Your coupon was successfully applied.","Your coupon was successfully applied.",module,Magento_SalesRule
+"Your coupon was successfully applied.","Kuponki käytettiin onnistuneesti.",module,Magento_SalesRule
 Promotion,Promotion,module,Magento_SalesRule
 "Auto Generated Specific Coupon Codes","Auto Generated Specific Coupon Codes",module,Magento_SalesRule
 "Web Site",Sivusto,module,Magento_SalesRule
 Priority,Prioriteetti,module,Magento_SalesRule
-"Cart Price Rule","Cart Price Rule",module,Magento_SalesRule
+"Cart Price Rule","Ostoskorin hintasääntö",module,Magento_SalesRule
 Back,Takaisin,module,Magento_SalesRule
 "Currently Active","Currently Active",module,Magento_SalesRule
 "Rule Information","Säännön tiedot",module,Magento_SalesRule
@@ -9913,7 +9914,7 @@ Labels,Labels,module,Magento_SalesRuleStaging
 200,200,module,Magento_SalesRuleStaging
 "Start Time","Start Time",module,Magento_SalesRuleStaging
 "End Time","End Time",module,Magento_SalesRuleStaging
-"Cart Price Rules","Cart Price Rules",module,Magento_SalesRuleStaging
+"Cart Price Rules","Ostoskorin hintasäännöt",module,Magento_SalesRuleStaging
 "Remove Cart Price Rule from Campaign","Remove Cart Price Rule from Campaign",module,Magento_SalesRuleStaging
 "Entity Sequence profile not added to meta active profile","Entiteetin järjestysprofiilia ei lisätty aktiivimetaprofiiliin",module,Magento_SalesSequence
 "Not enough arguments","Liian vähän argumentteja",module,Magento_SalesSequence
@@ -9981,9 +9982,9 @@ Password,Salasana,module,Magento_ScheduledImportExport
 "No valid data sent","No valid data sent",module,Magento_ScheduledImportExport
 "You deleted the history files.","You deleted the history files.",module,Magento_ScheduledImportExport
 "We can't delete the history files right now.","We can't delete the history files right now.",module,Magento_ScheduledImportExport
-"A total of %1 record(s) have been updated.","A total of %1 record(s) have been updated.",module,Magento_ScheduledImportExport
+"A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty.",module,Magento_ScheduledImportExport
 "We cannot change status for all items.","We cannot change status for all items.",module,Magento_ScheduledImportExport
-"You deleted a total of %1 record(s).","You deleted a total of %1 record(s).",module,Magento_ScheduledImportExport
+"You deleted a total of %1 record(s).","Yhteensä %1 tietue(tta) poistettu.",module,Magento_ScheduledImportExport
 "We can't delete all the items right now.","We can't delete all the items right now.",module,Magento_ScheduledImportExport
 "We can't save the scheduled operation right now.","We can't save the scheduled operation right now.",module,Magento_ScheduledImportExport
 "We can't create directory ""%1""","Hakemistoa ""%1"" ei voida luoda",module,Magento_ScheduledImportExport
@@ -10019,7 +10020,7 @@ Password,Salasana,module,Magento_ScheduledImportExport
 Enabled,Käytössä,module,Magento_ScheduledImportExport
 Disabled,"Ei käytössä",module,Magento_ScheduledImportExport
 Import,Tuo,module,Magento_ScheduledImportExport
-Export,Export,module,Magento_ScheduledImportExport
+Export,Vie,module,Magento_ScheduledImportExport
 Daily,Päivittäin,module,Magento_ScheduledImportExport
 Weekly,Viikottain,module,Magento_ScheduledImportExport
 Monthly,Kuukausittain,module,Magento_ScheduledImportExport
@@ -10579,7 +10580,7 @@ End,End,module,Magento_Staging
 Staging,Staging,module,Magento_Staging
 "Create New Update","Create New Update",module,Magento_Staging
 Back,Takaisin,module,Magento_Staging
-General,General,module,Magento_Staging
+General,Yleiset,module,Magento_Staging
 Status,Tila,module,Magento_Staging
 "Update Name","Update Name",module,Magento_Staging
 Includes,Includes,module,Magento_Staging
@@ -10639,7 +10640,7 @@ Report,Report,module,Magento_Support
 "Paths file already exists","Paths file already exists",module,Magento_Support
 "Paths file cannot be created","Paths file cannot be created",module,Magento_Support
 "Please select item(s).","Please select item(s).",module,Magento_Support
-"A total of %1 record(s) have been deleted.","A total of %1 record(s) have been deleted.",module,Magento_Support
+"A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu.",module,Magento_Support
 Support,Tuki,module,Magento_Support
 "Data Collector","Data Collector",module,Magento_Support
 "The backup has been saved.","Varmuuskopio on tallennettu.",module,Magento_Support
@@ -10728,7 +10729,7 @@ Void,Mitätön,module,Magento_Support
 "Partial Refund Offline","Partial Refund Offline",module,Magento_Support
 "Payments Functionality Matrix","Payments Functionality Matrix",module,Magento_Support
 "Payment Methods",Maksutavat,module,Magento_Support
-"Shipping Methods","Shipping Methods",module,Magento_Support
+"Shipping Methods",Toimitustavat,module,Magento_Support
 "Job Code","Job Code",module,Magento_Support
 "Cron Expression","Cron Expression",module,Magento_Support
 "Run Class","Run Class",module,Magento_Support
@@ -10823,7 +10824,7 @@ Message,Viesti,module,Magento_Support
 "Default Store","Default Store",module,Magento_Support
 "Websites Tree","Websites Tree",module,Magento_Support
 "There was an error while loading system report data.","There was an error while loading system report data.",module,Magento_Support
-General,General,module,Magento_Support
+General,Yleiset,module,Magento_Support
 Environment,Environment,module,Magento_Support
 "Cannot save backup. The reason is: Utility lsof not found","Cannot save backup. The reason is: Utility lsof not found",module,Magento_Support
 "Test error","Test error",module,Magento_Support
@@ -10837,9 +10838,9 @@ text,text,module,Magento_Support
 "Show Log","Näytä loki",module,Magento_Support
 Delete,Poista,module,Magento_Support
 "Delete ""%1""","Poista ""%1""",module,Magento_Support
-"Are you sure you want to delete a ""%1"" record?","Are you sure you want to delete a ""%1"" record?",module,Magento_Support
+"Are you sure you want to delete a ""%1"" record?","Haluatko varmasti poistaa ""%1""-tietueen?",module,Magento_Support
 View,Näytä,module,Magento_Support
-"Are you sure you wan't to delete a ""%1"" record?","Are you sure you wan't to delete a ""%1"" record?",module,Magento_Support
+"Are you sure you wan't to delete a ""%1"" record?","Haluatko varmasti poistaa ""%1""-tietueen?",module,Magento_Support
 "Empty log","Empty log",module,Magento_Support
 "Backup ID:","Backup ID:",module,Magento_Support
 Collapse,Collapse,module,Magento_Support
@@ -10855,7 +10856,7 @@ Logs,Lokit,module,Magento_Support
 Attributes,Attributes,module,Magento_Support
 Events,Events,module,Magento_Support
 Cron,Cron,module,Magento_Support
-Design,Design,module,Magento_Support
+Design,Ulkoasu,module,Magento_Support
 Stores,Kaupat,module,Magento_Support
 "Refresh Status","Refresh Status",module,Magento_Support
 "New Backup","New Backup",module,Magento_Support
@@ -11231,7 +11232,7 @@ Manage,Hallitse,module,Magento_Theme
 "Theme Path","Teeman polku",module,Magento_Theme
 "Theme Title","Theme Title",module,Magento_Theme
 "Theme Preview Image","Teeman esikatselukuva",module,Magento_Theme
-General,General,module,Magento_Theme
+General,Yleiset,module,Magento_Theme
 "Copy of %1","%1:n kopio",module,Magento_Theme
 "Max image size %1M","Max image size %1M",module,Magento_Theme
 "Theme JavaScript","Theme JavaScript",module,Magento_Theme
@@ -11431,7 +11432,7 @@ On,Käytössä,module,Magento_Ui
 Off,Off,module,Magento_Ui
 "Go to Details Page","Go to Details Page",module,Magento_Ui
 "New View","New View",module,Magento_Ui
-"Default View","Default View",module,Magento_Ui
+"Default View",Oletusnäkymä,module,Magento_Ui
 "${ $.visible } out of ${ $.total } visible","${ $.visible } out of ${ $.total } visible",module,Magento_Ui
 "You have successfully saved your edits.","You have successfully saved your edits.",module,Magento_Ui
 "There are {placeholder} messages requires your attention.","There are {placeholder} messages requires your attention.",module,Magento_Ui
@@ -12179,10 +12180,10 @@ Assign,Assign,module,Magento_VisualMerchandiser
 Remove,Poista,module,Magento_VisualMerchandiser
 Grid,Ruudukko,module,Magento_VisualMerchandiser
 Tile,Tile,module,Magento_VisualMerchandiser
-"records found","records found",module,Magento_VisualMerchandiser
+"records found","merkintää löytyi",module,Magento_VisualMerchandiser
 "per page","per sivu",module,Magento_VisualMerchandiser
 "Previous page","Edellinen sivu",module,Magento_VisualMerchandiser
-"of %1","of %1",module,Magento_VisualMerchandiser
+"of %1","/ %1",module,Magento_VisualMerchandiser
 "Next page","Seuraava sivu",module,Magento_VisualMerchandiser
 Draggable,Draggable,module,Magento_VisualMerchandiser
 Close,Sulje,module,Magento_VisualMerchandiser
