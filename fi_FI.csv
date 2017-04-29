@@ -673,13 +673,13 @@ Loading...,Ladataan...,module,Magento_Backend
 "Global Search","Globaali haku",module,Magento_Backend
 Marketing,Markkinointi,module,Magento_Backend
 "SEO & Search","SEO & haku",module,Magento_Backend
-"User Content","User Content",module,Magento_Backend
+"User Content","Käyttäjien sisältö",module,Magento_Backend
 Content,Sisältö,module,Magento_Backend
 Elements,Elementit,module,Magento_Backend
 Design,Ulkoasu,module,Magento_Backend
 Schedule,Schedule,module,Magento_Backend
 Settings,Asetukset,module,Magento_Backend
-Attributes,Ominaisuudet,module,Magento_Backend
+Attributes,Attribuutit,module,Magento_Backend
 "Other Settings","Muut asetukset",module,Magento_Backend
 "Data Transfer",Tiedonsiirto,module,Magento_Backend
 "Magento Connect","Magento Connect",module,Magento_Backend
@@ -1323,7 +1323,7 @@ Root,Juuri,module,Magento_Catalog
 Delete,Poista,module,Magento_Catalog
 Save,Tallenna,module,Magento_Catalog
 "Use Config Settings","Käytä kokoonpanon asetuksia",module,Magento_Catalog
-"Use All Available Attributes","Käytä kaikkia käytettävissä olevia ominaisuuksia",module,Magento_Catalog
+"Use All Available Attributes","Käytä kaikkia käytettävissä olevia attribuutteja",module,Magento_Catalog
 ID,Tunnus,module,Magento_Catalog
 Name,Nimi,module,Magento_Catalog
 SKU,Tuotenro,module,Magento_Catalog
@@ -1516,7 +1516,7 @@ Categories,Kategoriat,module,Magento_Catalog
 "Unable to add attribute","Unable to add attribute",module,Magento_Catalog
 "Please, specify attributes","Please, specify attributes",module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
-"Manage Product Attributes","Manage Product Attributes",module,Magento_Catalog
+"Manage Product Attributes","Hallinnoi tuotteen attribuutteja",module,Magento_Catalog
 "We can't delete the attribute.","Ominaisuutta ei voida poistaa.",module,Magento_Catalog
 "You deleted the product attribute.","You deleted the product attribute.",module,Magento_Catalog
 "We can't find an attribute to delete.","Poistettavaa ominaisuutta ei löydy.",module,Magento_Catalog
@@ -1821,7 +1821,7 @@ name,nimi,module,Magento_Catalog
 "Sort Option","Sort Option",module,Magento_Catalog
 Groups,Ryhmät,module,Magento_Catalog
 "Double click on a group to rename it.","Double click on a group to rename it.",module,Magento_Catalog
-"Unassigned Attributes","Unassigned Attributes",module,Magento_Catalog
+"Unassigned Attributes","Määrittämättömät attribuutit",module,Magento_Catalog
 "A name is required.","Nimi on pakollinen.",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","This group contains system attributes. Please move system attributes to another group and try again.",module,Magento_Catalog
 "Please select a node.","Please select a node.",module,Magento_Catalog
@@ -2208,7 +2208,7 @@ Edit,Muokkaa,module,Magento_CatalogEvent
 "Product with SKU ""%1"" does not exist","Product with SKU ""%1"" does not exist",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","The fewest you may purchase is %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Please correct the quantity for some products.",module,Magento_CatalogInventory
-"The most you may purchase is %1.","The most you may purchase is %1.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Suurin sallittu ostosmäärä on %1.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested.","Meillä ei ole pyytämääsi määrää tuotetta ""%1"".",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Meillä ei ole niin montaa kappaletta tuotetta ""%1"" kuin haluat, mutta siirretään tilaukselle jäljellä olevat %2.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.",module,Magento_CatalogInventory
@@ -2727,6 +2727,9 @@ Payment,Maksu,module,Magento_Checkout
 "We received your order!","Olemme vastaanottaneet tilauksesi!",module,Magento_Checkout
 "Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Checkout
 "Go to Checkout","Siirry kassalle",module,Magento_Checkout
+"View and edit cart","Tarkastele ja muokkaa ostoskoria",module,Magento_Checkout
+"Item in Cart","Tuote ostoskorissa",module,Magento_Checkout
+"Items in Cart","Tuotteet ostoskorissa",module,Magento_Checkout
 "Terms and Conditions",Käyttöehdot,module,Magento_CheckoutAgreements
 "Add New Condition","Lisää ehto",module,Magento_CheckoutAgreements
 "Save Condition","Tallenna ehto",module,Magento_CheckoutAgreements
@@ -3192,7 +3195,7 @@ Select,Valitse,module,Magento_ConfigurableProduct
 "Apply unique quantity by attribute to each SKU","Apply unique quantity by attribute to each SKU",module,Magento_ConfigurableProduct
 "Skip quantity at this time","Skip quantity at this time",module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","Vaihe 1: Valitse attribuutit",module,Magento_ConfigurableProduct
-"Selected Attributes:","Selected Attributes:",module,Magento_ConfigurableProduct
+"Selected Attributes:","Valitut attribuutit:",module,Magento_ConfigurableProduct
 "Step 4: Summary","Vaihe 4: Yhteenveto",module,Magento_ConfigurableProduct
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","Configurable products allow customers to choose options (Ex: shirt color).
@@ -3744,15 +3747,15 @@ Name,Nimi,module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Customer
 Email:,Sähköposti:,module,Magento_Customer
 Password:,Salasana:,module,Magento_Customer
-"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",module,Magento_Customer
+"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:",module,Magento_Customer
 "Proceed through checkout faster","Ostaa nopeammin",module,Magento_Customer
 "Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Customer
 "View past orders","Tarkastella aikaisempia tilauksia",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Tallentaa vaihtoehtoisia osoitteita (toimitus esimerkiksi perheenjäsenille ja ystäville)",module,Magento_Customer
-"Please confirm your %store_name account","Please confirm your %store_name account",module,Magento_Customer
-"You must confirm your %customer_email email before you can sign in (link is only valid once):","You must confirm your %customer_email email before you can sign in (link is only valid once):",module,Magento_Customer
+"Please confirm your %store_name account","Vahvista tilisi kauppaan %store_name",module,Magento_Customer
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","Sinun täytyy vahvistaa sähköpostiosoitteesi %customer_email, ennen kuin voit kirjautua sisään (linkki toimii vain kerran):",module,Magento_Customer
 "Confirm Your Account","Vahvista tilisi",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Kiitos %store_name tilisi vahvistamisesta.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme vaihtaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:",module,Magento_Customer
@@ -3764,7 +3767,7 @@ Password:,Salasana:,module,Magento_Customer
 "Thanks,<br>%store_name","Kiittäen,<br>%store_name",module,Magento_Customer
 "Your %store_name email and password has been changed","Sinun %store_name -sähköpostisi ja -salasanasi on muutettu",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Olemme saaneet pyynnön muuttaa seuraavia tietoja %store_name -tilissäsi: sähköposti, salasana.",module,Magento_Customer
-"Reset your %store_name password","Reset your %store_name password",module,Magento_Customer
+"Reset your %store_name password","Aseta uusi salasana %store_name -verkkokauppaan",module,Magento_Customer
 "There was recently a request to change the password for your account.","Tilisi salasananvaihto on tilattu äskettäin.",module,Magento_Customer
 "If you requested this change, set a new password here:","Jos olet pyytänyt tämän muutoksen, palauta salasanasi tästä:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Jos et jättänyt tätä pyyntöä, voit ohittaa tämän sähköpostin ja salasana pysyy samana.",module,Magento_Customer
@@ -3863,11 +3866,11 @@ Group,Ryhmä,module,Magento_Customer
 "Subscribe to Newsletter","Tilaa Uutiskirje",module,Magento_Customer
 "Unsubscribe from Newsletter","Peru uutiskirjeen tilaus",module,Magento_Customer
 "Are you sure to unsubscribe selected customers from newsletter?","Haluatko peruuttaa valittujen asiakkaiden uutiskirjeen?",module,Magento_Customer
-"Assign a Customer Group","Assign a Customer Group",module,Magento_Customer
-"Are you sure to assign selected customers to new group?","Are you sure to assign selected customers to new group?",module,Magento_Customer
+"Assign a Customer Group","Määritä asiakasryhmä",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Haluatko varmasti määrittää valitut asiakkaat uuteen ryhmään?",module,Magento_Customer
 Phone,Phone,module,Magento_Customer
 ZIP,Postinumero,module,Magento_Customer
-"Customer Since","Customer Since",module,Magento_Customer
+"Customer Since","Asiakas alkaen",module,Magento_Customer
 "Confirmed email","Confirmed email",module,Magento_Customer
 "Account Created in","Account Created in",module,Magento_Customer
 "Tax VAT Number","Tax VAT Number",module,Magento_Customer
@@ -4210,7 +4213,7 @@ subscribed,tilattu,module,Magento_CustomerSegment
 "Order Status","Order Status",module,Magento_CustomerSegment
 Any,"Mikä tahansa",module,Magento_CustomerSegment
 "Order Status %1 %2:","Order Status %1 %2:",module,Magento_CustomerSegment
-"Product Attributes","Product Attributes",module,Magento_CustomerSegment
+"Product Attributes","Tuotteen attribuutit",module,Magento_CustomerSegment
 "Product %1","Tuote %1",module,Magento_CustomerSegment
 "Date Ranges","Date Ranges",module,Magento_CustomerSegment
 viewed,viewed,module,Magento_CustomerSegment
@@ -4269,7 +4272,7 @@ Phone,Puhelin,module,Magento_CustomerSegment
 ZIP,Postinumero,module,Magento_CustomerSegment
 Country,Maa,module,Magento_CustomerSegment
 State/Province,State/Province,module,Magento_CustomerSegment
-"Customer Since","Customer Since",module,Magento_CustomerSegment
+"Customer Since","Asiakas alkaen",module,Magento_CustomerSegment
 "View Combined Report","View Combined Report",module,Magento_CustomerSegment
 Set,Aseta,module,Magento_CustomerSegment
 "AVS result code",AVS-tuloskoodi,module,Magento_Cybersource
@@ -5320,7 +5323,7 @@ Code,Code,module,Magento_GiftRegistry
 Label,Label,module,Magento_GiftRegistry
 "Sort Order",Järjestys,module,Magento_GiftRegistry
 "Is Listed","Is Listed",module,Magento_GiftRegistry
-Attributes,Attributes,module,Magento_GiftRegistry
+Attributes,Attribuutit,module,Magento_GiftRegistry
 [GLOBAL],[GLOBAALI],module,Magento_GiftRegistry
 [WEBSITE],[VERKKOKAUPPA],module,Magento_GiftRegistry
 "[STORE VIEW]",[KAUPPANÄKYMÄ],module,Magento_GiftRegistry
@@ -5553,7 +5556,7 @@ Role,Role,module,Magento_GiftRegistry
 "Enable Gift Registry","Enable Gift Registry",module,Magento_GiftRegistry
 "Maximum Registrants","Maximum Registrants",module,Magento_GiftRegistry
 "Owner Notification","Owner Notification",module,Magento_GiftRegistry
-"Email Template","Email Template",module,Magento_GiftRegistry
+"Email Template",Sähköpostimalli,module,Magento_GiftRegistry
 "Email Sender","Sähköpostin Lähettäjä",module,Magento_GiftRegistry
 "Gift Registry Sharing","Gift Registry Sharing",module,Magento_GiftRegistry
 "Maximum Sent Emails Threshold","Maximum Sent Emails Threshold",module,Magento_GiftRegistry
@@ -5980,7 +5983,7 @@ Resources,Resources,module,Magento_Integration
 "Popup Blocker is enabled! Please add this site to your exception list.","Popup Blocker is enabled! Please add this site to your exception list.",module,Magento_Integration
 Allow,Allow,module,Magento_Integration
 Done,Done,module,Magento_Integration
-Extensions,Extensions,module,Magento_Integration
+Extensions,Laajennukset,module,Magento_Integration
 OAuth,OAuth,module,Magento_Integration
 "Cleanup Settings","Cleanup Settings",module,Magento_Integration
 "Cleanup Probability","Cleanup Probability",module,Magento_Integration
@@ -6245,7 +6248,7 @@ Create,Luo,module,Magento_Logging
 "Catalog Search","Catalog Search",module,Magento_Logging
 "Catalog Ratings","Catalog Ratings",module,Magento_Logging
 "Catalog Reviews","Catalog Reviews",module,Magento_Logging
-"Catalog Attributes","Catalog Attributes",module,Magento_Logging
+"Catalog Attributes","Tuoteluettelon attribuutit",module,Magento_Logging
 "Catalog Product Templates","Catalog Product Templates",module,Magento_Logging
 "Admin Sign In","Admin Sign In",module,Magento_Logging
 "CMS Pages","CMS Pages",module,Magento_Logging
@@ -6264,7 +6267,7 @@ Reports,Raportit,module,Magento_Logging
 "Sales Order Status","Sales Order Status",module,Magento_Logging
 "Sales Invoices",Myyntilaskut,module,Magento_Logging
 "Sales Shipments","Sales Shipments",module,Magento_Logging
-"Sales Credit Memos","Sales Credit Memos",module,Magento_Logging
+"Sales Credit Memos","Myynnin hyvityslaskut",module,Magento_Logging
 "Checkout Terms and Conditions","Checkout Terms and Conditions",module,Magento_Logging
 "Admin Permission Roles","Admin Permission Roles",module,Magento_Logging
 "Admin Permission Users","Admin Permission Users",module,Magento_Logging
@@ -6310,6 +6313,7 @@ Partners,Yhteistyökumppanit,module,Magento_Marketplace
 "Read More","Lue lisää",module,Magento_Marketplace
 "Partner Page","Partner Page",module,Magento_Marketplace
 "No partners were found","No partners were found",module,Magento_Marketplace
+"Find Partners & Extensions","Etsi kumppaneita & laajennuksia",module,Magento_Marketplace
 Synchronize,Synkronoi,module,Magento_MediaStorage
 "Synchronizing %1 to %2","Synkronoidaan %1 %2",module,Magento_MediaStorage
 Synchronizing...,Synkronoidaan...,module,Magento_MediaStorage
@@ -6573,7 +6577,7 @@ Change,Vaihda,module,Magento_Multishipping
 "Edit Items","Muokkaa tuotteita",module,Magento_Multishipping
 "Shipping is not applicable.","Shipping is not applicable.",module,Magento_Multishipping
 "Product Name",Tuotenimi,module,Magento_Multishipping
-"Check Out with Multiple Addresses","Check Out with Multiple Addresses",module,Magento_Multishipping
+"Check Out with Multiple Addresses","Siirry kassalle käyttäen useita toimitusosoitteita",module,Magento_Multishipping
 "Address %1 <span>of %2</span>","Address %1 <span>of %2</span>",module,Magento_Multishipping
 "Shipping To","Shipping To",module,Magento_Multishipping
 "Shipping Method",Toimitustapa,module,Magento_Multishipping
@@ -6845,7 +6849,7 @@ No,Ei,module,Magento_OfflineShipping
 "For shipment with matching items","For shipment with matching items",module,Magento_OfflineShipping
 Field,Kenttä,module,Magento_OfflineShipping
 "is required.","is required.",module,Magento_OfflineShipping
-"Flat Rate","Flat Rate",module,Magento_OfflineShipping
+"Flat Rate","Kiinteähintainen toimitus",module,Magento_OfflineShipping
 Enabled,Käytössä,module,Magento_OfflineShipping
 "Method Name","Method Name",module,Magento_OfflineShipping
 Price,Hinta,module,Magento_OfflineShipping
@@ -7019,7 +7023,7 @@ Sales,Myynti,module,Magento_Paypal
 "We can't initialize Express Checkout review.","We can't initialize Express Checkout review.",module,Magento_Paypal
 "We can't update shipping method.","We can't update shipping method.",module,Magento_Paypal
 "We can't start Express Checkout.","We can't start Express Checkout.",module,Magento_Paypal
-"To check out, please sign in with your email address.","To check out, please sign in with your email address.",module,Magento_Paypal
+"To check out, please sign in with your email address.","Kirjaudu sisään sähköpostiosoitteellasi siirtyäksesi kassalle.",module,Magento_Paypal
 "Sorry, but something went wrong","Sorry, but something went wrong",module,Magento_Paypal
 "Your payment has been declined. Please try again.","Your payment has been declined. Please try again.",module,Magento_Paypal
 "Requested payment method does not match with order.","Requested payment method does not match with order.",module,Magento_Paypal
@@ -7348,7 +7352,7 @@ Qty,Määrä,module,Magento_Paypal
 Subtotal,Välisumma,module,Magento_Paypal
 "Please update order data to get shipping methods and rates","Please update order data to get shipping methods and rates",module,Magento_Paypal
 or,tai,module,Magento_Paypal
-"Checkout with PayPal","Checkout with PayPal",module,Magento_Paypal
+"Checkout with PayPal","Siirry kassalle käyttäen PayPalia",module,Magento_Paypal
 "Please do not refresh the page until you complete payment.","Please do not refresh the page until you complete payment.",module,Magento_Paypal
 "You will be required to enter your payment details after you place an order.","You will be required to enter your payment details after you place an order.",module,Magento_Paypal
 Continue,Jatka,module,Magento_Paypal
@@ -7791,7 +7795,7 @@ To,Asti,module,Magento_Reminder
 "Repeat Schedule","Repeat Schedule",module,Magento_Reminder
 "Enter the number of days until the email reminder rule is retriggered if conditions still match (Ex: Enter ""7, 14"" to trigger emails in 7 days, and then 14 days after that).","Enter the number of days until the email reminder rule is retriggered if conditions still match (Ex: Enter ""7, 14"" to trigger emails in 7 days, and then 14 days after that).",module,Magento_Reminder
 "Select Rule...","Valitse sääntö...",module,Magento_Reminder
-"Email Templates","Email Templates",module,Magento_Reminder
+"Email Templates",Sähköpostimallit,module,Magento_Reminder
 "Only customers who have an account for a store view will receive emails related to that store view.","Only customers who have an account for a store view will receive emails related to that store view.",module,Magento_Reminder
 "Default Titles and Description","Default Titles and Description",module,Magento_Reminder
 "You can find and edit rule label and descriptions, per store view, in email templates.","You can find and edit rule label and descriptions, per store view, in email templates.",module,Magento_Reminder
@@ -7864,7 +7868,7 @@ found,found,module,Magento_Reminder
 "Shopping Cart","Shopping Cart",module,Magento_Reminder
 "The wish list is not empty and abandoned %1 %2 days and %3 of these conditions match:","The wish list is not empty and abandoned %1 %2 days and %3 of these conditions match:",module,Magento_Reminder
 "The root wish list condition should have a days value of 1 or greater.","The root wish list condition should have a days value of 1 or greater.",module,Magento_Reminder
-"Product Attributes","Product Attributes",module,Magento_Reminder
+"Product Attributes","Tuotteen attribuutit",module,Magento_Reminder
 "Product %1","Product %1",module,Magento_Reminder
 "Number of Items","Number of Items",module,Magento_Reminder
 "Number of wish list items %1 %2","Number of wish list items %1 %2",module,Magento_Reminder
@@ -7934,7 +7938,7 @@ Purchases,Purchases,module,Magento_Reports
 CSV,CSV,module,Magento_Reports
 "Excel XML","Excel XML",module,Magento_Reports
 Unlimited,Unlimited,module,Magento_Reports
-"Low stock","Low stock",module,Magento_Reports
+"Low stock","Alhainen varastotilanne",module,Magento_Reports
 "Products Ordered","Products Ordered",module,Magento_Reports
 "Most Viewed","Most Viewed",module,Magento_Reports
 "Show Report","Show Report",module,Magento_Reports
@@ -8019,7 +8023,7 @@ Reports,Raportit,module,Magento_Reports
 "Order Count Report","Order Count Report",module,Magento_Reports
 "Order Total Report","Order Total Report",module,Magento_Reports
 "Downloads Report","Downloads Report",module,Magento_Reports
-"Low Stock","Low Stock",module,Magento_Reports
+"Low Stock","Alhainen varastotilanne",module,Magento_Reports
 "Low Stock Report","Low Stock Report",module,Magento_Reports
 "Ordered Products Report","Ordered Products Report",module,Magento_Reports
 "Products Most Viewed Report","Products Most Viewed Report",module,Magento_Reports
@@ -8033,7 +8037,7 @@ Reviews,Arvostelut,module,Magento_Reports
 "Product Reviews","Tuotteen arvostelut",module,Magento_Reports
 Details,Yksityiskohdat,module,Magento_Reports
 Sales,Myynti,module,Magento_Reports
-"Bestsellers Report","Bestsellers Report",module,Magento_Reports
+"Bestsellers Report","Myydyimpien raportti",module,Magento_Reports
 Coupons,Alennuskoodit,module,Magento_Reports
 "Coupons Report","Coupons Report",module,Magento_Reports
 "Invoice Report","Invoice Report",module,Magento_Reports
@@ -8056,7 +8060,7 @@ Statistics,Tilastot,module,Magento_Reports
 "Order Taxes Report Grouped by Tax Rates","Order Taxes Report Grouped by Tax Rates",module,Magento_Reports
 "Total Invoiced VS Paid Report","Yhteensä laskutettu VS maksettu-raportti",module,Magento_Reports
 "Promotion Coupons Usage Report","Promotion Coupons Usage Report",module,Magento_Reports
-Bestsellers,Bestsellers,module,Magento_Reports
+Bestsellers,Myydyimmät,module,Magento_Reports
 "Most Viewed Products Report","Most Viewed Products Report",module,Magento_Reports
 Error,Error,module,Magento_Reports
 "Show By",Selaa,module,Magento_Reports
@@ -8084,10 +8088,10 @@ Marketing,Markkinointi,module,Magento_Reports
 "By Customers",Asiakkaittain,module,Magento_Reports
 "By Products",Tuotteittain,module,Magento_Reports
 Refunds,Refunds,module,Magento_Reports
-"Order Total","Order Total",module,Magento_Reports
+"Order Total",Loppusumma,module,Magento_Reports
 "Order Count","Order Count",module,Magento_Reports
 New,Uusi,module,Magento_Reports
-Ordered,Ordered,module,Magento_Reports
+Ordered,Tilatut,module,Magento_Reports
 "Recently Viewed/Compared Products","Recently Viewed/Compared Products",module,Magento_Reports
 "Show for Current","Show for Current",module,Magento_Reports
 "Default Recently Viewed Products Count","Default Recently Viewed Products Count",module,Magento_Reports
@@ -8980,7 +8984,7 @@ Reorder,"Tilaa uudelleen",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Oletko varma? Tämä tilaus peruutetaan ja uusi luodaan sen sijaan.",module,Magento_Sales
 "Save Gift Message","Tallenna lahjaviesti",module,Magento_Sales
 [deleted],[deleted],module,Magento_Sales
-"Order Credit Memos","Order Credit Memos",module,Magento_Sales
+"Order Credit Memos","Tilausten hyvityslaskut",module,Magento_Sales
 "Credit memo #%1 created","Hyvityslasku %1 luotu",module,Magento_Sales
 "Credit memo #%1 comment added","Credit memo #%1 comment added",module,Magento_Sales
 "Shipment #%1 created","Toimitus %1 luotu",module,Magento_Sales
@@ -9622,7 +9626,7 @@ Created,Luotu,module,Magento_Sales
 "PDF Credit Memos","PDF hyvityslaskut",module,Magento_Sales
 "Purchase Point","Purchase Point",module,Magento_Sales
 "Print Invoices","Tulosta laskut",module,Magento_Sales
-"Print Packing Slips","Tulosta pakkausluettelot",module,Magento_Sales
+"Print Packing Slips","Tulosta pakkauslistat",module,Magento_Sales
 "Print Credit Memos","Tulosta hyvityslaskut",module,Magento_Sales
 "Print All","Tulosta kaikki",module,Magento_Sales
 "Print Shipping Labels","Tulosta osoitetarrat",module,Magento_Sales
@@ -9651,7 +9655,7 @@ Shipments,Lähetykset,module,Magento_SalesArchive
 "There are %1 orders in this archive. All of them will be moved to the regular table after the archive is disabled.","There are %1 orders in this archive. All of them will be moved to the regular table after the archive is disabled.",module,Magento_SalesArchive
 Archive,Arkisto,module,Magento_SalesArchive
 "Restore from Archive","Palauta arkistosta",module,Magento_SalesArchive
-"Orders, Invoices, Shipments, Credit Memos Archiving","Orders, Invoices, Shipments, Credit Memos Archiving",module,Magento_SalesArchive
+"Orders, Invoices, Shipments, Credit Memos Archiving","Tilaukset, laskut, lähetykset, hyvityslaskut arkistointi",module,Magento_SalesArchive
 "Enable Archiving","Enable Archiving",module,Magento_SalesArchive
 "Archive Orders Purchased","Archive Orders Purchased",module,Magento_SalesArchive
 "Order Statuses to be Archived","Order Statuses to be Archived",module,Magento_SalesArchive
@@ -9660,12 +9664,12 @@ Add,Lisää,module,Magento_SalesArchive
 "Sales Archive","Sales Archive",module,Magento_SalesArchive
 "All Store Views","Kaikki kauppanäkymät",module,Magento_SalesArchive
 "Purchased From","Purchased From",module,Magento_SalesArchive
-"PDF Credit Memos","PDF Credit Memos",module,Magento_SalesArchive
+"PDF Credit Memos","PDF hyvityslaskut",module,Magento_SalesArchive
 "Credit Memo","Credit Memo",module,Magento_SalesArchive
 Created,Luotu,module,Magento_SalesArchive
 Order,Order,module,Magento_SalesArchive
 "Order Date",Tilauspäivämäärä,module,Magento_SalesArchive
-"Bill-to Name","Bill-to Name",module,Magento_SalesArchive
+"Bill-to Name","Laskutusasiakkaan nimi",module,Magento_SalesArchive
 Status,Tila,module,Magento_SalesArchive
 Refunded,Hyvitetty,module,Magento_SalesArchive
 "Order Status","Order Status",module,Magento_SalesArchive
@@ -9687,13 +9691,13 @@ Cancel,Peruuta,module,Magento_SalesArchive
 Hold,Pitoon,module,Magento_SalesArchive
 Unhold,"Vapauta pidosta",module,Magento_SalesArchive
 "Print Invoices","Tulosta laskut",module,Magento_SalesArchive
-"Print Packing Slips","Print Packing Slips",module,Magento_SalesArchive
-"Print Credit Memos","Print Credit Memos",module,Magento_SalesArchive
+"Print Packing Slips","Tulosta pakkauslistat",module,Magento_SalesArchive
+"Print Credit Memos","Tulosta hyvityslaskut",module,Magento_SalesArchive
 "Print All","Tulosta kaikki",module,Magento_SalesArchive
-"Print Shipping Labels","Print Shipping Labels",module,Magento_SalesArchive
+"Print Shipping Labels","Tulosta osoitetarrat",module,Magento_SalesArchive
 "Remove to Archive","Remove to Archive",module,Magento_SalesArchive
 ID,Tunnus,module,Magento_SalesArchive
-"Purchase Date","Purchase Date",module,Magento_SalesArchive
+"Purchase Date",Ostopäivämäärä,module,Magento_SalesArchive
 "Ship-to Name","Vastaanottajan nimi",module,Magento_SalesArchive
 "Grand Total (Base)","Loppusumma (peruste)",module,Magento_SalesArchive
 "Grand Total (Purchased)","Loppusumma (ostettu)",module,Magento_SalesArchive
@@ -9833,9 +9837,9 @@ Inactive,Inactive,module,Magento_SalesRule
 "Some coupons are invalid.","Some coupons are invalid.",module,Magento_SalesRule
 "Item totals are not set for the rule.","Item totals are not set for the rule.",module,Magento_SalesRule
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 Cart Price Rules based on ""%2"" attribute have been disabled.",module,Magento_SalesRule
-"Apply Discount Code","Apply Discount Code",module,Magento_SalesRule
+"Apply Discount Code","Käytä alennuskoodi",module,Magento_SalesRule
 "Enter discount code","Syötä alennuskoodi",module,Magento_SalesRule
-"Apply Discount","Apply Discount",module,Magento_SalesRule
+"Apply Discount","Ota alennus käyttöön",module,Magento_SalesRule
 "Cancel coupon","Peruuta alennuskoodi",module,Magento_SalesRule
 "Your coupon was successfully removed.","Your coupon was successfully removed.",module,Magento_SalesRule
 "Your coupon was successfully applied.","Kuponki käytettiin onnistuneesti.",module,Magento_SalesRule
@@ -10217,7 +10221,7 @@ Back,Takaisin,module,Magento_SendFriend
 "%sender_name wants to share this product with you:","%sender_name wants to share this product with you:",module,Magento_SendFriend
 "Message from %sender_name:","Message from %sender_name:",module,Magento_SendFriend
 "Email to a Friend","Sähköpostita kaverille",module,Magento_SendFriend
-"Email Templates","Email Templates",module,Magento_SendFriend
+"Email Templates",Sähköpostimallit,module,Magento_SendFriend
 Enabled,Käytössä,module,Magento_SendFriend
 "Select Email Template","Valitse sähköpostimalli",module,Magento_SendFriend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Email template chosen based on theme fallback when ""Default"" option is selected.",module,Magento_SendFriend
@@ -10853,7 +10857,7 @@ Top,Ylös,module,Magento_Support
 Data,Data,module,Magento_Support
 Modules,Modules,module,Magento_Support
 Logs,Lokit,module,Magento_Support
-Attributes,Attributes,module,Magento_Support
+Attributes,Attribuutit,module,Magento_Support
 Events,Events,module,Magento_Support
 Cron,Cron,module,Magento_Support
 Design,Ulkoasu,module,Magento_Support
@@ -10965,7 +10969,7 @@ Up-sells,Up-sells,module,Magento_TargetRule
 Cross-sells,Cross-sells,module,Magento_TargetRule
 "Model class name for attribute is invalid","Model class name for attribute is invalid",module,Magento_TargetRule
 "This attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscores (_), and be sure the code begins with a letter.","This attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscores (_), and be sure the code begins with a letter.",module,Magento_TargetRule
-"Product Attributes","Product Attributes",module,Magento_TargetRule
+"Product Attributes","Tuotteen attribuutit",module,Magento_TargetRule
 "Both Selected and Rule-Based","Both Selected and Rule-Based",module,Magento_TargetRule
 "Selected Only","Selected Only",module,Magento_TargetRule
 "Rule-Based Only","Rule-Based Only",module,Magento_TargetRule
@@ -11179,7 +11183,7 @@ Rate,Rate,module,Magento_Tax
 "(Incl. Tax)",(Verollinen),module,Magento_Tax
 "Order Total Excl. Tax","Yhteensä veroton",module,Magento_Tax
 "Order Total Incl. Tax","Yhteensä verollinen",module,Magento_Tax
-"Order Total","Order Total",module,Magento_Tax
+"Order Total",Loppusumma,module,Magento_Tax
 "Your credit card will be charged for","Your credit card will be charged for",module,Magento_Tax
 Code,Koodi,module,Magento_TaxImportExport
 Country,Maa,module,Magento_TaxImportExport
@@ -11331,7 +11335,7 @@ Minute,Minuutti,module,Magento_Theme
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Theme
 Email:,Sähköposti:,module,Magento_Theme
 Password:,Salasana:,module,Magento_Theme
-"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",module,Magento_Theme
+"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",module,Magento_Theme
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Theme
 "When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",module,Magento_Theme
 "Proceed through checkout faster","Proceed through checkout faster",module,Magento_Theme
@@ -11351,7 +11355,7 @@ Configuration,Configuration,module,Magento_Theme
 "Admin empty","Admin empty",module,Magento_Theme
 "Admin 1column","Admin 1column",module,Magento_Theme
 "Theme Information","Teeman tiedot",module,Magento_Theme
-"Other Settings","Other Settings",module,Magento_Theme
+"Other Settings","Muut asetukset",module,Magento_Theme
 "HTML Head","HTML Head",module,Magento_Theme
 "Favicon Icon","Favicon Icon",module,Magento_Theme
 "Allowed file types: ico, png, gif, jpg, jpeg, apng, svg. Not all browsers support all these formats!","Sallitut tiedostotyypit: ico, png, gif, jpg, jpeg, apng, svg. Kaikki selaimet eivät tue kaikkia näitä muotoja!",module,Magento_Theme
@@ -12553,7 +12557,7 @@ Remove,Poista,theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",theme,frontend/Magento/luma
 Email:,Sähköposti:,theme,frontend/Magento/luma
 Password:,Salasana:,theme,frontend/Magento/luma
-"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",theme,frontend/Magento/luma
+"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",theme,frontend/Magento/luma
 "Quick Checkout","Nopea tilaus",theme,frontend/Magento/luma
@@ -12591,7 +12595,7 @@ Footer,Alatunniste,theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Tilattu <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","Päivitys %store_name -tilaukselle",theme,frontend/Magento/luma
 "Your %store_name order has shipped","%store_name -tilaus on lähetetty",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Postitutsvahvistus alla. Kiitos vielä tilauksesta.",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Postitusvahvistus alla. Kiitos vielä tilauksesta.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Postitus #%shipment_id tilaukselle #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Päivitys %store_name -postitukselle",theme,frontend/Magento/luma
 "Account Dashboard","Tilin hallintapaneeli",theme,frontend/Magento/luma
