@@ -33,10 +33,8 @@ Install the Finnish language pack via composer is never easier.
 **Install Finnish pack**:
 
 ```
-composer require mageplaza/magento-2-finnish-language-pack:dev-master
-php bin/magento cache:clean
+composer require mageplaza/magento-2-finnish-language-pack
 php bin/magento setup:static-content:deploy fi_FI
-php bin/magento indexer:reindex
 php bin/magento cache:clean
 php bin/magento cache:flush
 
@@ -46,8 +44,7 @@ php bin/magento cache:flush
 **Update  Finnish pack**:
 
 ```
-composer update mageplaza/magento-2-finnish-language-pack:dev-master
-php bin/magento cache:clean
+composer update mageplaza/magento-2-finnish-language-pack
 php bin/magento setup:static-content:deploy fi_FI
 php bin/magento indexer:reindex
 php bin/magento cache:clean
