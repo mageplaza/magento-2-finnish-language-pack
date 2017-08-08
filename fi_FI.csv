@@ -7943,7 +7943,7 @@ Unlimited,Unlimited,module,Magento_Reports
 "Most Viewed","Most Viewed",module,Magento_Reports
 "Show Report","Show Report",module,Magento_Reports
 Interval,Interval,module,Magento_Reports
-Total,Total,module,Magento_Reports
+Total,Yhteensä,module,Magento_Reports
 Price,Hinta,module,Magento_Reports
 Views,Views,module,Magento_Reports
 "Refresh Statistics","Päivitä tilastot",module,Magento_Reports
@@ -7999,16 +7999,16 @@ Rate,Rate,module,Magento_Reports
 "Abandoned carts","Hylätyt ostoskorit",module,Magento_Reports
 Email,Sähköposti,module,Magento_Reports
 Products,Tuotteet,module,Magento_Reports
-Quantity,Quantity,module,Magento_Reports
+Quantity,Määrä,module,Magento_Reports
 "Applied Coupon","Käytetty alennuskoodi",module,Magento_Reports
 Updated,Päivitetty,module,Magento_Reports
 "IP Address",IP-osoite,module,Magento_Reports
 Customers,Asiakkaat,module,Magento_Reports
 ID,Tunnus,module,Magento_Reports
 "First Name",Etunimi,module,Magento_Reports
-"Last Name","Last Name",module,Magento_Reports
+"Last Name",Sukunimi,module,Magento_Reports
 "Items in Cart","Tuotteet ostoskorissa",module,Magento_Reports
-"Products in carts","Products in carts",module,Magento_Reports
+"Products in carts","Tuotteita ostoskorissa",module,Magento_Reports
 Carts,Ostoskorit,module,Magento_Reports
 Name,Nimi,module,Magento_Reports
 "Wish Lists",Toivelistat,module,Magento_Reports
