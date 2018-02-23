@@ -1,6 +1,6 @@
 ## Magento 2 Finnish Language Pack
 
-**Magento 2 Finnish Language Pack** is the perfect guide so that you can enable Finnish on your magento 2 store. This translation is really necessary for everyone who are living in the Finland. Here is a step-by-step guide to install Finnish package and use it as the default language.
+**Magento 2 Finnish Language Pack** is the perfect guide so that you can enable Finnish on your Magento 2 store. This translation is really necessary for everyone who are living in the Finland. Here is a step-by-step guide to install Finnish package and use it as the default language.
 
 Read more [Magento 2 Finnish Language Pack](https://www.mageplaza.com/magento-2-finnish-language-pack.html)
 
@@ -136,6 +136,7 @@ Contribute to this language at https://crowdin.com/project/magento-2/fi
 - Magento v2.0.13
 - Magento v2.0.14
 - Magento v2.0.15
+- Magento v2.0.16
 - Magento v2.1.0
 - Magento v2.1.1
 - Magento v2.1.2
@@ -145,6 +146,10 @@ Contribute to this language at https://crowdin.com/project/magento-2/fi
 - Magento v2.1.6
 - Magento v2.1.7
 - Magento v2.1.8
+- Magento v2.1.10
+- Magento v2.2.0
+- Magento v2.2.1
+- Magento v2.2.2
 
 
 
