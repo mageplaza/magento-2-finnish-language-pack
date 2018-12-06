@@ -1530,12 +1530,12 @@
 "Website","Sivusto",module,Magento_Catalog
 "Global","Globaali",module,Magento_Catalog
 "Scope","Skooppi",module,Magento_Catalog
-"Declare attribute value saving scope.","Declare attribute value saving scope.",module,Magento_Catalog
+"Declare attribute value saving scope.","Ilmoita ominaisuuden arvon säästöalue.",module,Magento_Catalog
 "Storefront Properties","Kaupan etusivun ominaisuudet",module,Magento_Catalog
 "Use in Search","Käytä haussa",module,Magento_Catalog
 "Visible in Advanced Search","Näkyvissä tarkennetussa haussa",module,Magento_Catalog
 "Comparable on Storefront","Vertailtavissa kaupan etusivulla",module,Magento_Catalog
-"Use for Promo Rule Conditions","Use for Promo Rule Conditions",module,Magento_Catalog
+"Use for Promo Rule Conditions","Mainossääntö määritteiden ehdot",module,Magento_Catalog
 "Allow HTML Tags on Storefront","Salli HTML-tunnisteet kaupan etusivulla",module,Magento_Catalog
 "Visible on Catalog Pages on Storefront","Näkyvillä katalogin sivuilla kaupassa",module,Magento_Catalog
 "Used in Product Listing","Käytetään tuotelistauksessa",module,Magento_Catalog
@@ -4040,10 +4040,10 @@
 "Comparable","Vertailtavissa",module,Magento_ConfigurableProductStaging
 "Page not found.","Sivua ei löydy.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Kiitos yhteydenotostasi! Vastaamme sinulle pian.",module,Magento_Contact
-"An error occurred while processing your form. Please try again later.","An error occurred while processing your form. Please try again later.",module,Magento_Contact
-"Enter the Name and try again.","Enter the Name and try again.",module,Magento_Contact
-"Enter the comment and try again.","Enter the comment and try again.",module,Magento_Contact
-"The email address is invalid. Verify the email address and try again.","The email address is invalid. Verify the email address and try again.",module,Magento_Contact
+"An error occurred while processing your form. Please try again later.","Virhe käsiteltäessä lomaketta. Yritä myöhemmin uudelleen.",module,Magento_Contact
+"Enter the Name and try again.","Kirjoita nimi ja yritä uudelleen.",module,Magento_Contact
+"Enter the comment and try again.","Kirjoita kommentti ja yritä uudelleen.",module,Magento_Contact
+"The email address is invalid. Verify the email address and try again.","Sähköpostiosoite ei kelpaa. Tarkista sähköpostiosoite ja yritä uudelleen.",module,Magento_Contact
 "* Required Fields","* Pakolliset kentät",module,Magento_Contact
 "Write Us","Kirjoita meille",module,Magento_Contact
 "Jot us a note and we’ll get back to you as quickly as possible.","Lähetä meille viesti alla olevalla lomakkeella niin palaamme vastauksen kanssa mahdollisimman pian.",module,Magento_Contact
