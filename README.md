@@ -89,8 +89,11 @@ Unzip the Finnish language pack to Magento 2 root folder. In this guide, we extr
 Your Magento 2 root folder can be: `/home/account_name/yourstore.com/public_html/`
 
 ```
-unzip master.zip app/i18n/Mageplaza/fi_fi
+unzip master.zip app/i18n/Mageplaza/
 ```
+
+Rename folder `magento-2-finnish-language-pack` to `fi_fi`.
+
 
 You also can unzip locally and upload them to Magento 2 root folder.
 
@@ -110,7 +113,11 @@ To download and install Finnish pack manually, you have to access to your server
 
 #### Step 1: Unzip and upload
 
-Unzip the compressed file and upload file `fi_FI.zip` into `app/i18n/mageplaza/fi_FI/fi_FI.csv`
+Unzip the compressed file and upload file `master.zip` into `app/i18n/Mageplaza/fi_fi/fi_FI.csv`
+
+See this screenshot
+
+![Finnish pack](https://i.imgur.com/tS668yC.png)
 
 #### Step 2: Flush cache
 
