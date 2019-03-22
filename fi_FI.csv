@@ -1,20 +1,20 @@
 All,Kaikki,module,Magento_AdminGws
 None,"Ei yhtään",module,Magento_AdminGws
 "Allowed Scopes","Sallitut kohdenäkymät",module,Magento_AdminGws
-"More permissions are needed to delete the ""%1"" item.","More permissions are needed to delete the ""%1"" item.",module,Magento_AdminGws
+"More permissions are needed to delete the ""%1"" item.","Lisää käyttöoikeuksia tarvitaan kohteen ”%1” poistamiseen.",module,Magento_AdminGws
 "You need more permissions to apply some of the rule updates.","Joidenkin sääntöpäivitysten lisääminen vaatii enemmän käyttöoikeuksia.",module,Magento_AdminGws
-"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","This entity needs to be assigned to a store view. Verify the entity assignment and try again.",module,Magento_AdminGws
-"Orders can only be completed in an active store. Verify the store and try again.","Orders can only be completed in an active store. Verify the store and try again.",module,Magento_AdminGws
-"This item needs to be assigned to a store view. Assign item and try again.","This item needs to be assigned to a store view. Assign item and try again.",module,Magento_AdminGws
-"More permissions are needed to save this item.","More permissions are needed to save this item.",module,Magento_AdminGws
-"More permissions are needed to delete this item.","More permissions are needed to delete this item.",module,Magento_AdminGws
-"More permissions are needed to view this item.","More permissions are needed to view this item.",module,Magento_AdminGws
-"At least one website or store group needs to be selected. Select and try again.","At least one website or store group needs to be selected. Select and try again.",module,Magento_AdminGws
-"More permissions are needed to set All Scopes to a Role.","More permissions are needed to set All Scopes to a Role.",module,Magento_AdminGws
-"The ""%1"" website ID is incorrect. Verify the website ID and try again.","The ""%1"" website ID is incorrect. Verify the website ID and try again.",module,Magento_AdminGws
+"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Tämä kohde on varattava kauppa-näkymään. Tarkista kohteen määritys ja yritä uudelleen.",module,Magento_AdminGws
+"Orders can only be completed in an active store. Verify the store and try again.","Tilauksia voidaan suorittaa vain aktiivisen kauppaan. Tarkista kaupan voimassaolo ja yritä uudelleen.",module,Magento_AdminGws
+"This item needs to be assigned to a store view. Assign item and try again.","Tämä kohde on määritettävä kauppa-näkymään. Määritä kohde ja yritä uudelleen.",module,Magento_AdminGws
+"More permissions are needed to save this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen tallentamiseen.",module,Magento_AdminGws
+"More permissions are needed to delete this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen poistamiseen.",module,Magento_AdminGws
+"More permissions are needed to view this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen näyttämiseen.",module,Magento_AdminGws
+"At least one website or store group needs to be selected. Select and try again.","Ainakin yksi verkkosivu- tai myymäläryhmä on valittava. Valitse ja yritä uudelleen.",module,Magento_AdminGws
+"More permissions are needed to set All Scopes to a Role.","Tarvitaan lisää oikeuksia kaikkien alueiden ja roolie asettamiseen.",module,Magento_AdminGws
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","Sivuston ”%1” tunnus on virheellinen. Tarkista sivuston tunnus ja yritä uudelleen.",module,Magento_AdminGws
 "You need more permissions to access website ""%1"".","Lisää käyttöoikeuksia tarvitaan pääsemiseksi sivustolle ""%1"".",module,Magento_AdminGws
-"The ""%1"" store ID is incorrect. Verify the store ID and try again.","The ""%1"" store ID is incorrect. Verify the store ID and try again.",module,Magento_AdminGws
-"More permissions are needed to save this setting.","More permissions are needed to save this setting.",module,Magento_AdminGws
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","Myymälän ”%1” tunnus on virheellinen. Tarkista myymälän tunnus ja yritä uudelleen.",module,Magento_AdminGws
+"More permissions are needed to save this setting.","Lisää käyttöoikeuksia tarvitaan tämän asetuksen tallentamiseen.",module,Magento_AdminGws
 "Role Scopes","Roolien toimintaoikeudet",module,Magento_AdminGws
 Custom,Mukautettu,module,Magento_AdminGws
 "Read Details",Lisätietoja,module,Magento_AdminNotification
@@ -104,19 +104,19 @@ Configure,Määritä,module,Magento_AdvancedCheckout
 "You must buy at least %1 of these per purchase.","Sinun täytyy ostaa vähintään %1 näitä per ostotapahtuma.",module,Magento_AdvancedCheckout
 "Specify the product's options.","Määritä tuotteen vaihtoehdot.",module,Magento_AdvancedCheckout
 "Alert me when this item is available.","Ilmoita, kun tämä tuote on saatavilla.",module,Magento_AdvancedCheckout
-"This customer couldn't be found. Verify the customer and try again.","This customer couldn't be found. Verify the customer and try again.",module,Magento_AdvancedCheckout
+"This customer couldn't be found. Verify the customer and try again.","Asiakasta ei löytynyt. Tarkista asiakas ja yritä uudelleen.",module,Magento_AdvancedCheckout
 "Shopping cart management is disabled for this customer.","Ostoskorin hallinta ei ole käytössä tälle asiakkaalle.",module,Magento_AdvancedCheckout
-"This store couldn't be found. Verify the store and try again.","This store couldn't be found. Verify the store and try again.",module,Magento_AdvancedCheckout
+"This store couldn't be found. Verify the store and try again.","Kauppaa ei löytynyt. Tarkista kauppa ja yritä uudelleen.",module,Magento_AdvancedCheckout
 Customers,Asiakkaat,module,Magento_AdvancedCheckout
 "Shopping Cart",Ostoskori,module,Magento_AdvancedCheckout
-"An error occurred. For details, see the error log.","An error occurred. For details, see the error log.",module,Magento_AdvancedCheckout
+"An error occurred. For details, see the error log.","Tapahtui virhe. Lisätietoja saat virhelokista.",module,Magento_AdvancedCheckout
 "You do not have access to this.","Sinulla ei ole pääsyä tähän.",module,Magento_AdvancedCheckout
-"Orders can only be completed in an active store. Verify the store and try again.","Orders can only be completed in an active store. Verify the store and try again.",module,Magento_AdvancedCheckout
-"The ordered item needs to be loaded. Load the item and try again.","The ordered item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
-"The quote item ID needs to be received. Set the ID and try again.","The quote item ID needs to be received. Set the ID and try again.",module,Magento_AdvancedCheckout
-"The quote item needs to be loaded. Load the item and try again.","The quote item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
-"The wish list item ID needs to be received. Set the ID and try again.","The wish list item ID needs to be received. Set the ID and try again.",module,Magento_AdvancedCheckout
-"The wish list item needs to be loaded. Load the item and try again.","The wish list item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
+"Orders can only be completed in an active store. Verify the store and try again.","Tilauksia voidaan suorittaa vain aktiivisessa kaupassa. Tarkista kaupan voimassaolo ja yritä uudelleen.",module,Magento_AdvancedCheckout
+"The ordered item needs to be loaded. Load the item and try again.","Tilatun tuote täytyy ladata. Lataa tuote ja yritä uudelleen.",module,Magento_AdvancedCheckout
+"The quote item ID needs to be received. Set the ID and try again.","Tarjouksen tuotetunnus on pakollinen. Laita tunnus ja yritä uudelleen.",module,Magento_AdvancedCheckout
+"The quote item needs to be loaded. Load the item and try again.","Tarjoustuote on pakollinen. Laita tuote ja yritä uudelleen.",module,Magento_AdvancedCheckout
+"The wish list item ID needs to be received. Set the ID and try again.","Toivelistan tuotetunnus on pakollinen. Määritä tunnus ja yritä uudelleen.",module,Magento_AdvancedCheckout
+"The wish list item needs to be loaded. Load the item and try again.","Toivelistaa täytyy ladata. Lataa tuote ja yritä uudelleen.",module,Magento_AdvancedCheckout
 "An error has occurred. See error log for details.","Tapahtui virhe. Katso lisätietoja virhelokista.",module,Magento_AdvancedCheckout
 "You cannot configure a product.","Et voi määrittää tuotetta.",module,Magento_AdvancedCheckout
 "You removed the items.","Tuotteet poistettiin.",module,Magento_AdvancedCheckout
@@ -147,7 +147,7 @@ Customers,Asiakkaat,module,Magento_AdvancedCheckout
 "Yes, for Specified Customer Groups","Kyllä, määrätyille asiakasryhmille",module,Magento_AdvancedCheckout
 "Yes, for Everyone","Kyllä, kaikille",module,Magento_AdvancedCheckout
 No,Ei,module,Magento_AdvancedCheckout
-"The file is corrupt and can't be used.","The file is corrupt and can't be used.",module,Magento_AdvancedCheckout
+"The file is corrupt and can't be used.","Tiedosto on korruptoitunut ja sitä ei voi käyttää.",module,Magento_AdvancedCheckout
 "Please upload the file in .csv format.","Lähetä tiedosto .csv-muodossa.",module,Magento_AdvancedCheckout
 "%1 item(s) need your attention.","%1 kohde(tta) kaipaa(vat) huomiotasi.",module,Magento_AdvancedCheckout
 "Apply Coupon Code","Käytä alennuskoodi",module,Magento_AdvancedCheckout
@@ -348,13 +348,13 @@ Error,Virhe,module,Magento_AsynchronousOperations
 "Dismiss All Completed Tasks","Ohita kaikki suoritetut tehtävät",module,Magento_AsynchronousOperations
 "Action Details - #","Toiminnon tiedot - #",module,Magento_AsynchronousOperations
 "Number of Records Affected","Vaikuttavien tietojen määrä",module,Magento_AsynchronousOperations
-"The role wasn't found for the user. Verify the role and try again.","The role wasn't found for the user. Verify the role and try again.",module,Magento_Authorization
+"The role wasn't found for the user. Verify the role and try again.","Käyttäjän rooli ei löytynyt. Tarkista rooli ja yritä uudelleen.",module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Jokin meni vikaan koottaessa sallittujen resurssien luetteloa. Löydät lisätietoja exceptions-lokista.",module,Magento_Authorization
 "You created the order.","Olet luonut tilauksen.",module,Magento_Authorizenet
 "Order saving error: %1","Tilauksen tallentamisen virhe: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Valitse maksutapa.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Emme voi käsitellä tilaustasi juuri nyt. Yritä myöhemmin uudelleen.",module,Magento_Authorizenet
-"A server error stopped your order from being placed. Please try to place your order again.","A server error stopped your order from being placed. Please try to place your order again.",module,Magento_Authorizenet
+"A server error stopped your order from being placed. Please try to place your order again.","Palvelimen virhe pysäytti tilauksen etenimisen. Yritä tilata tilauksesi uudelleen.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Luottokortti: xxxx-%1",module,Magento_Authorizenet
 "amount %1","määrä %1",module,Magento_Authorizenet
 failed.,epäonnistui.,module,Magento_Authorizenet
@@ -382,7 +382,7 @@ void,mitätön,module,Magento_Authorizenet
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Tapahtuman %1 on mitätöity. Tapahtuman tila on ”%2”. Summa %3.",module,Magento_Authorizenet
 "Authorize Only","Varmenna ainoastaan",module,Magento_Authorizenet
 "Authorize and Capture","Varmenna ja talteenota",module,Magento_Authorizenet
-"The transaction details are unavailable. Please try again later.","The transaction details are unavailable. Please try again later.",module,Magento_Authorizenet
+"The transaction details are unavailable. Please try again later.","Tapahtumatiedot eivät ole käytettävissä. Yritä myöhemmin uudelleen.",module,Magento_Authorizenet
 "Electronic payments save the trees.","Sähköiset maksut säästää puita.",module,Magento_Authorizenet
 "Credit Card Type",Luottokorttityyppi,module,Magento_Authorizenet
 "Please Select",Valitse,module,Magento_Authorizenet
@@ -430,7 +430,7 @@ Done,Done,module,Magento_B2b
 "B2B Features","B2B Features",module,Magento_B2b
 "Invalid Form Key. Please refresh the page.","Virheellinen lomakkeen avain. Ole hyvä ja päivitä sivu.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Syötit virheellisen salausavaimen. Päivitä sivu.",module,Magento_Backend
-"Invalid security or form key. Please refresh the page.","Invalid security or form key. Please refresh the page.",module,Magento_Backend
+"Invalid security or form key. Please refresh the page.","Virheellinen lomakkeen tai turvallisuuden avain. Ole hyvä ja päivitä sivu.",module,Magento_Backend
 "Cache Storage Management","Välimuistitilan hallinta",module,Magento_Backend
 "Flush Magento Cache","Tyhjennä Magenton välimuisti",module,Magento_Backend
 "The cache storage may contain additional data. Are you sure that you want to flush it?","Välimuistitila saattaa sisältää muitakin tietoja. Haluatko varmasti tyhjentää sen?",module,Magento_Backend
@@ -547,7 +547,7 @@ Stores,Kaupat,module,Magento_Backend
 Home,Etusivu,module,Magento_Backend
 Reset,Tyhjennä,module,Magento_Backend
 "Are you sure you want to do this?","Haluatko varmasti tehdä tämän?",module,Magento_Backend
-label,label,module,Magento_Backend
+label,tunniste,module,Magento_Backend
 "Add New Image","Lisää uusi kuva",module,Magento_Backend
 "Export block for grid %1 is not defined","Vientilohkoa ruudukolle %1 ei ole määritetty",module,Magento_Backend
 "Reset Filter","Nollaa suodatin",module,Magento_Backend
@@ -565,13 +565,13 @@ To,Asti,module,Magento_Backend
 "Invalid export type supplied for grid export block","Taulukosta vietävälle lohkolle on määritelty virheellinen vienti-tyyppi",module,Magento_Backend
 Export,Vienti,module,Magento_Backend
 "Please correct the column format and try again.","Korjaa sarakkeen muoto ja yritä uudelleen.",module,Magento_Backend
-"An item needs to be selected. Select and try again.","An item needs to be selected. Select and try again.",module,Magento_Backend
+"An item needs to be selected. Select and try again.","Kohteen on oltava valittuna. Valitse ja yritä uudelleen.",module,Magento_Backend
 Submit,Lähetä,module,Magento_Backend
 "Unknown block type","Tuntematon lohkon tyyppi",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empty","Korjaa välilehden määritys ja yritä uudelleen. Välilehden tunnus ei voi olla tyhjä",module,Magento_Backend
 "Please correct the tab configuration and try again.","Korjaa välilehden määritys ja yritä uudelleen.",module,Magento_Backend
 "You have logged out.","Olet kirjautunut ulos.",module,Magento_Backend
-"These cache type(s) don't exist: %1","These cache type(s) don't exist: %1",module,Magento_Backend
+"These cache type(s) don't exist: %1","Nämä välimuistin tyypit/tyyppi ei/eivät ole olemassa: %1",module,Magento_Backend
 "The image cache was cleaned.","Kuvavälimuisti puhdistettiin.",module,Magento_Backend
 "An error occurred while clearing the image cache.","Tapahtui virhe kuvavälimuistia tyhjennettäessä.",module,Magento_Backend
 "The JavaScript/CSS cache has been cleaned.","JavaScript/CSS-välimuisti on puhdistettu.",module,Magento_Backend
@@ -640,15 +640,15 @@ New,Uusi,module,Magento_Backend
 YTD,"Vuoden alusta",module,Magento_Backend
 2YTD,2YTD,module,Magento_Backend
 "Authentication storage is incorrect.","Virheellinen todennusvarasto.",module,Magento_Backend
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_Backend
-"An authentication error occurred. Verify and try again.","An authentication error occurred. Verify and try again.",module,Magento_Backend
-"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.",module,Magento_Backend
-"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.",module,Magento_Backend
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Tilin sisäänkirjautuminen oli virheellinen tai tilisi on poistettu tilapäisesti käytöstä. Odota ja yritä myöhemmin uudelleen.",module,Magento_Backend
+"An authentication error occurred. Verify and try again.","Todennusvirhe ilmeni. Tarkista ja yritä uudelleen.",module,Magento_Backend
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","Admin istunnon elinaika on virheellinen. Määritä elinajaksi 31536000 sekuntia (yksi vuosi) tai lyhyempi ja yritä uudelleen.",module,Magento_Backend
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","Admin istunnon elinaika on virheellinen. Määritä elinajaksi 60 sekuntia tai pidempi ja yritä uudelleen.",module,Magento_Backend
 Order,Tilaus,module,Magento_Backend
 "Order #%1","Tilausnumero %1",module,Magento_Backend
-"Save &amp; Continue","Save &amp; Continue",module,Magento_Backend
-"Save &amp; Close","Save &amp; Close",module,Magento_Backend
-"Save &amp; New","Save &amp; New",module,Magento_Backend
+"Save &amp; Continue","Tallenna ja jatka",module,Magento_Backend
+"Save &amp; Close","Tallenna &amp; Sulje",module,Magento_Backend
+"Save &amp; New","Tallenna &amp; Uusi",module,Magento_Backend
 Edit,Edit,module,Magento_Backend
 "Sorry, you need permissions to view this content.","Valitan, sinulla ei ole oikeutta tälle sivulle.",module,Magento_Backend
 "Next steps","Seuraavat askeleet",module,Magento_Backend
@@ -776,10 +776,10 @@ Advanced,Lisäasetukset,module,Magento_Backend
 Developer,Kehittäjä,module,Magento_Backend
 Debug,Vianselvitys,module,Magento_Backend
 "Enabled Template Path Hints for Storefront","Ota käyttöön esimerkki-polkujen vihjeet kaupan Julkisivulla",module,Magento_Backend
-"Enable Hints for Storefront with URL Parameter","Enable Hints for Storefront with URL Parameter",module,Magento_Backend
-"Parameter Value","Parameter Value",module,Magento_Backend
+"Enable Hints for Storefront with URL Parameter","Salli vihjeet kaupan URL parametreissä",module,Magento_Backend
+"Parameter Value",Parametriarvo,module,Magento_Backend
 "Enabled Template Path Hints for Admin","Ota käyttöön esimerkki-polkujen vihjeet järjestemänvalvojalle",module,Magento_Backend
-"Add Block Class Type to Hints","Add Block Class Type to Hints",module,Magento_Backend
+"Add Block Class Type to Hints","Lisää lohkoluokka tyyppi vihjeisiin",module,Magento_Backend
 "Template Settings",Malliasetukset,module,Magento_Backend
 "Allow Symlinks","Salli symboliset linkit",module,Magento_Backend
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Varoitus! Tätä ominaisuutta ei suositella käytettäväksi tuotantoympäristöissä, koska se on potentiaalinen turvallisuusriski.",module,Magento_Backend
@@ -798,7 +798,7 @@ Debug,Vianselvitys,module,Magento_Backend
 "Minify CSS Files","Pienennä CSS-tiedostot",module,Magento_Backend
 "Image Processing Settings","Kuvien käsittelyn asetukset",module,Magento_Backend
 "Image Adapter","Kuva sovitin",module,Magento_Backend
-"When the adapter was changed, please flush Catalog Images Cache.","When the adapter was changed, please flush Catalog Images Cache.",module,Magento_Backend
+"When the adapter was changed, please flush Catalog Images Cache.","Kun sovitinta vaihdetaan, ole hyvä ja tyhjennä katalogikuvien välimuisti.",module,Magento_Backend
 "Static Files Settings","Staattisten tiedostojen asetukset",module,Magento_Backend
 "Sign Static Files","Merkitse staattiset tiedostot",module,Magento_Backend
 "Country Options",Maa-asetukset,module,Magento_Backend
@@ -831,12 +831,12 @@ Host,Isäntä,module,Magento_Backend
 "Port (25)","Portti (25)",module,Magento_Backend
 "Set Return-Path","Aseta Return-Path",module,Magento_Backend
 "Return-Path Email","Return-Path sähköposti",module,Magento_Backend
-"Images Upload Configuration","Images Upload Configuration",module,Magento_Backend
-"Enable Frontend Resize","Enable Frontend Resize",module,Magento_Backend
-"Maximum Width","Maximum Width",module,Magento_Backend
-"Maximum allowed width for uploaded image.","Maximum allowed width for uploaded image.",module,Magento_Backend
-"Maximum Height","Maximum Height",module,Magento_Backend
-"Maximum allowed height for uploaded image.","Maximum allowed height for uploaded image.",module,Magento_Backend
+"Images Upload Configuration","Kuvien Lataamisen asetukset",module,Magento_Backend
+"Enable Frontend Resize","Ota käyttöön kuvan rajaaminen käyttöliittymässä",module,Magento_Backend
+"Maximum Width","Suurin leveys",module,Magento_Backend
+"Maximum allowed width for uploaded image.","Suurin sallittu leveys ladatulle kuvalle.",module,Magento_Backend
+"Maximum Height",Enimmäiskorkeus,module,Magento_Backend
+"Maximum allowed height for uploaded image.","Suurin sallittu leveys ladatulle kuvalle.",module,Magento_Backend
 Admin,Ylläpito,module,Magento_Backend
 "Admin User Emails","Järjestelmänvalvojan sähköpostit",module,Magento_Backend
 "Forgot Password Email Template","""Unohtuiko salasana"" -sähköpostimalli",module,Magento_Backend
@@ -861,9 +861,9 @@ Security,Turvallisuusasetukset,module,Magento_Backend
 Web,Web,module,Magento_Backend
 "Url Options",Url-asetukset,module,Magento_Backend
 "Add Store Code to Urls","Lisää kaupan kielikoodi URL-osoitteisiin",module,Magento_Backend
-"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).",module,Magento_Backend
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong style=""color:red"">Varoitus!</strong> Kun käytät kaupan kielikoodia URL-osoitteissa, joissakin tapauksissa on mahdollista ettei järjestelmä toimi oikein, mikäli kolmannen osapuolen palveluissa on määritetty URL-osoitteet ilman kielikoodeja (kuten PayPal jne.).",module,Magento_Backend
 "Auto-redirect to Base URL","Automaattisesti uudelleenohjaa Base URL:ään",module,Magento_Backend
-"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","I.e. redirect from http://example.com/store/ to http://www.example.com/store/",module,Magento_Backend
+"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","Esim. uudelleenohjaa URL:stä http://example.com/store osoitteeseen http://www.example.com/store/",module,Magento_Backend
 "Search Engine Optimization",Hakukoneoptimointi,module,Magento_Backend
 "Use Web Server Rewrites","Käytä Web-palvelimen uudelleenkirjoitus -asetusta",module,Magento_Backend
 "Base URLs","Base URL:t",module,Magento_Backend
@@ -871,7 +871,7 @@ Web,Web,module,Magento_Backend
 "Base URL","Base URL",module,Magento_Backend
 "Specify URL or {{base_url}} placeholder.","Määritä URL-osoite tai {{base_url}} paikanmerkki.",module,Magento_Backend
 "Base Link URL","Base Link URL",module,Magento_Backend
-"May start with {{unsecure_base_url}} placeholder.","May start with {{unsecure_base_url}} placeholder.",module,Magento_Backend
+"May start with {{unsecure_base_url}} placeholder.","Voi olla tyhjä tai alkaa {{unsecure_base_url}} paikanmerkillä.",module,Magento_Backend
 "Base URL for Static View Files","Base URL staattisen näkymän tiedostoille",module,Magento_Backend
 "May be empty or start with {{unsecure_base_url}} placeholder.","Voi olla tyhjä tai alkaa {{unsecure_base_url}} paikanmerkillä.",module,Magento_Backend
 "Base URL for User Media Files","Base URL käyttäjän mediatiedostoihin",module,Magento_Backend
@@ -880,7 +880,7 @@ Web,Web,module,Magento_Backend
 "Secure Base URL","Suojattu Base URL",module,Magento_Backend
 "Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Määritä URL-osoite tai {{base_url}} tai {{unsecure_base_url}} paikanmerkki.",module,Magento_Backend
 "Secure Base Link URL","Suojattu Base linkki URL",module,Magento_Backend
-"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.",module,Magento_Backend
+"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","Voi olla tyhjä tai alkaa {{secure_base_url}} tai {{unsecure_base_url}} paikanmerkillä.",module,Magento_Backend
 "Secure Base URL for Static View Files","Turvallinen Base URL staattisen näkymän tiedostoile",module,Magento_Backend
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Voi olla tyhjä tai alkaa {{secure_base_url}} tai {{unsecure_base_url}} paikanmerkillä.",module,Magento_Backend
 "Secure Base URL for User Media Files","Suojattu Base URL käyttäjän mediatiedostoihin",module,Magento_Backend
@@ -1080,13 +1080,13 @@ Header,Ylätunniste,module,Magento_Banner
 "Dynamic Block Inline Template","Dynamic Block Inline Template",module,Magento_Banner
 Name,Name,module,Magento_Banner
 "Status Label","Status Label",module,Magento_Banner
-"General Information","General Information",module,Magento_Banner
-Back,Back,module,Magento_Banner
-"Enable Dynamic Block","Enable Dynamic Block",module,Magento_Banner
-"Use Default Value","Use Default Value",module,Magento_Banner
-"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Cart price rules allows you to setup promotions for items that are in the shopping cart.",module,Magento_Banner
-"Add Cart Price Rules","Add Cart Price Rules",module,Magento_Banner
-"Related Catalog Price Rule","Related Catalog Price Rule",module,Magento_Banner
+"General Information","Yleistä Tietoa",module,Magento_Banner
+Back,Takaisin,module,Magento_Banner
+"Enable Dynamic Block","Ota käyttöön dynaaminen lohko",module,Magento_Banner
+"Use Default Value","Käytä oletusarvoa",module,Magento_Banner
+"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Ostoskorin säännöt mahdollistavat ostoskorissa olevien kohteiden myynninedistämisen.",module,Magento_Banner
+"Add Cart Price Rules","Muokkaa ostoskorin hintasääntöjä",module,Magento_Banner
+"Related Catalog Price Rule","Uusi tuoteluettelon hintasääntö",module,Magento_Banner
 "Catalog price rules allows you to setup promotions for an items in catalog.","Catalog price rules allows you to setup promotions for an items in catalog.",module,Magento_Banner
 Cancel,Cancel,module,Magento_Banner
 "Add Selected","Add Selected",module,Magento_Banner
