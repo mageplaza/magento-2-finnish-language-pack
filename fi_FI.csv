@@ -62,7 +62,7 @@ Please select a website for this product in ""Product in Websites"".",module,Mag
 "Close","Sulje",module,Magento_AdminNotification
 "See All (","Katso kaikki (",module,Magento_AdminNotification
 " unread)"," lukematta)",module,Magento_AdminNotification
-"System Messages","System Messages",module,Magento_AdminNotification
+"System Messages","Järjestelmäviestit",module,Magento_AdminNotification
 "Show Toolbar","Näytä työkalupalkki",module,Magento_AdminNotification
 "Show List","Näytä lista",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Käytä HTTPS-yhteyttä syötteen haussa",module,Magento_AdminNotification
@@ -250,12 +250,12 @@ Please select a website for this product in ""Product in Websites"".",module,Mag
 "There was an error save new configuration value.","Tapahtui virhe tallennettaessa uutta konfiguraation arvoa.",module,Magento_Analytics
 "Please select an industry.","Valitse toimiala.",module,Magento_Analytics
 "--Please Select--","---Valitse---",module,Magento_Analytics
-"Command ""%1"" was not found.","Command ""%1"" was not found.",module,Magento_Analytics
+"Command ""%1"" was not found.","Komentoa ""%1"" ei löytynyt.",module,Magento_Analytics
 "The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","The data is invalid. Enter the data as a string or data that can be converted into a string and try again.",module,Magento_Analytics
 "The data is invalid. Enter the data as a string and try again.","The data is invalid. Enter the data as a string and try again.",module,Magento_Analytics
 "The data is invalid. Use a valid cipher method and try again.","The data is invalid. Use a valid cipher method and try again.",module,Magento_Analytics
 "Enter the encryption key and try again.","Enter the encryption key and try again.",module,Magento_Analytics
-"The ""%1"" source doesn't exist.","The ""%1"" source doesn't exist.",module,Magento_Analytics
+"The ""%1"" source doesn't exist.","Lähdettä ""%1"" ei ole olemassa.",module,Magento_Analytics
 "These arguments can't be empty ""%1""","Nämä argumentit eivät olla tyhjiä ""%1""",module,Magento_Analytics
 "Cannot find predefined integration user!","Etukäteen määritettyä integrointikäyttäjää ei löydy!",module,Magento_Analytics
 "File is not ready yet.","Tiedosto ei ole valmis vielä.",module,Magento_Analytics
@@ -339,7 +339,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Action Log","Toimintaloki",module,Magento_AsynchronousOperations
 "Report","Report",module,Magento_AsynchronousOperations
 "Bulk Actions","Massatoimintoja",module,Magento_AsynchronousOperations
-"Action Logs","Action Logs",module,Magento_AsynchronousOperations
+"Action Logs","Tapahtumalokit",module,Magento_AsynchronousOperations
 "Days Saved in Log","Päivää lokissa",module,Magento_AsynchronousOperations
 "Description of Operation","Toimenpiteen kuvaus",module,Magento_AsynchronousOperations
 "Summary","Yhteenveto",module,Magento_AsynchronousOperations
@@ -413,7 +413,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Merchant MD5","Kauppias MD5",module,Magento_Authorizenet
 "New Order Status","Uuden tilauksen tila",module,Magento_Authorizenet
 "Test Mode","Testitila",module,Magento_Authorizenet
-"Gateway URL","Gateway URL",module,Magento_Authorizenet
+"Gateway URL","Yhdyskäytävän URL",module,Magento_Authorizenet
 "Transaction Details URL","Maksutapahtuman tiedot URL",module,Magento_Authorizenet
 "Accepted Currency","Hyväksytty valuutta",module,Magento_Authorizenet
 "Debug","Vianselvitys",module,Magento_Authorizenet
@@ -476,7 +476,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Done","Valmis",module,Magento_B2b
 "We couldn't find any records.","We couldn't find any records.",module,Magento_B2b
 "Show","Näytä",module,Magento_B2b
-"per page","per page",module,Magento_B2b
+"per page","per sivu",module,Magento_B2b
 "Please Select","Valitse",module,Magento_B2b
 "%s of %s selected","%s / %s valittuna",module,Magento_B2b
 "Search by keyword","Search by keyword",module,Magento_B2b
@@ -705,7 +705,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Save &amp; Continue","Save &amp; Continue",module,Magento_Backend
 "Save &amp; Close","Save &amp; Close",module,Magento_Backend
 "Save &amp; New","Save &amp; New",module,Magento_Backend
-"Edit","Edit",module,Magento_Backend
+"Edit","Muokkaa",module,Magento_Backend
 "Sorry, you need permissions to view this content.","Valitan, sinulla ei ole oikeutta tälle sivulle.",module,Magento_Backend
 "Next steps","Seuraavat askeleet",module,Magento_Backend
 "If you think this is an error, try signing out and signing in again.","Jos luulet, että tämä on virhe, yritä kirjautua ulos ja kirjautua uudelleen.",module,Magento_Backend
@@ -791,7 +791,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Examples","Examples",module,Magento_Backend
 "Use Default Value","Use Default Value",module,Magento_Backend
 "We could not detect a size.","Kokoa ei voitu tunnistaa.",module,Magento_Backend
-"Warning message","Warning message",module,Magento_Backend
+"Warning message","Varoitus",module,Magento_Backend
 "This operation can take a long time","This operation can take a long time",module,Magento_Backend
 "Allow everything","Salli kaikki",module,Magento_Backend
 "Magento Admin","Magento Admin",module,Magento_Backend
@@ -896,9 +896,9 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Images Upload Configuration","Images Upload Configuration",module,Magento_Backend
 "Enable Frontend Resize","Ota käyttöön kuvan rajaaminen käyttöliittymässä",module,Magento_Backend
 "Resize performed via javascript before file upload.","Resize performed via javascript before file upload.",module,Magento_Backend
-"Maximum Width","Maximum Width",module,Magento_Backend
+"Maximum Width","Suurin leveys",module,Magento_Backend
 "Maximum allowed width for uploaded image.","Maximum allowed width for uploaded image.",module,Magento_Backend
-"Maximum Height","Maximum Height",module,Magento_Backend
+"Maximum Height","Enimmäiskorkeus",module,Magento_Backend
 "Maximum allowed height for uploaded image.","Maximum allowed height for uploaded image.",module,Magento_Backend
 "Admin","Ylläpito",module,Magento_Backend
 "Admin User Emails","Järjestelmänvalvojan sähköpostit",module,Magento_Backend
@@ -1048,10 +1048,10 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Magento root directory","Magenton juurikansio",module,Magento_Backup
 "Create Backup","Luo varmuuskopio",module,Magento_Backup
 "Rollback","Palautus",module,Magento_Backup
-"Backup Settings","Backup Settings",module,Magento_Backup
-"Enable Backup","Enable Backup",module,Magento_Backup
+"Backup Settings","Varmuuskopioinnin asetukset",module,Magento_Backup
+"Enable Backup","Ota varmuuskopiointi käyttöön",module,Magento_Backup
 "Enable Scheduled Backup","Ota ajoitettu varmuuskopiointi käyttöön",module,Magento_Backup
-"Scheduled Backup Type","Scheduled Backup Type",module,Magento_Backup
+"Scheduled Backup Type","Ajoitetun varmuuskopioinnin tyyppi",module,Magento_Backup
 "Start Time","Aloitusaika",module,Magento_Backup
 "Frequency","Tiheys",module,Magento_Backup
 "Maintenance Mode","Huoltotila",module,Magento_Backup
@@ -1070,9 +1070,9 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_Banner
 "New Dynamic Block","Uusi dynaaminen lohko",module,Magento_Banner
 "Delete","Poista",module,Magento_Banner
-"Are you sure you want to do this?","Are you sure you want to do this?",module,Magento_Banner
+"Are you sure you want to do this?","Haluatko varmasti jatkaa?",module,Magento_Banner
 "Reset","Reset",module,Magento_Banner
-"Save","Save",module,Magento_Banner
+"Save","Tallenna",module,Magento_Banner
 "Content","Sisältö",module,Magento_Banner
 "Default Content","Oletussisältö",module,Magento_Banner
 "No Default Content","Ei oletussisältöä",module,Magento_Banner
@@ -1100,7 +1100,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Related Dynamic Blocks","Liittyvät dynaamiset lohkot",module,Magento_Banner
 "Position","Sijainti",module,Magento_Banner
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa.",module,Magento_Banner
-"You deleted the dynamic block.","You deleted the dynamic block.",module,Magento_Banner
+"You deleted the dynamic block.","Dynaaminen lohko poistettiin.",module,Magento_Banner
 "Something went wrong while deleting dynamic block data. Please review the action log and try again.","Something went wrong while deleting dynamic block data. Please review the action log and try again.",module,Magento_Banner
 "We cannot find a dynamic block to delete.","We cannot find a dynamic block to delete.",module,Magento_Banner
 "This dynamic block no longer exists.","This dynamic block no longer exists.",module,Magento_Banner
@@ -1550,7 +1550,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Status","Tila",module,Magento_Bundle
 "Thumbnail","Pienoiskuva",module,Magento_Bundle
 "Type","Tyyppi",module,Magento_Bundle
-"Special Price","Special Price",module,Magento_Bundle
+"Special Price","Tarjoushinta",module,Magento_Bundle
 """option_id"" and ""parent_id"" values should be specified","""option_id"" and ""parent_id"" values should be specified",module,Magento_BundleGraphQl
 """sku"" value should be specified","""sku"" value should be specified",module,Magento_BundleGraphQl
 "Unique constraint violation found","Unique constraint violation found",module,Magento_BundleStaging
@@ -1821,7 +1821,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Something went wrong while updating the product(s) status.","Jotain meni pieleen päivitettäessa tuotteiden tilaa.",module,Magento_Catalog
 "The product was unable to be saved. Please try again.","The product was unable to be saved. Please try again.",module,Magento_Catalog
 "You saved the product.","Tuote tallennettiin.",module,Magento_Catalog
-"SKU for product %1 has been changed to %2.","SKU for product %1 has been changed to %2.",module,Magento_Catalog
+"SKU for product %1 has been changed to %2.","SKU tuotteelle %1 on muutettu %2.",module,Magento_Catalog
 "The image cannot be removed as it has been assigned to the other image role","Kuvaa ei voida poistaa, koska se on liitetty toiseen tuotteeseen tai rooliin",module,Magento_Catalog
 "The value of attribute(s) ""%1"" must be unique","The value of attribute(s) ""%1"" must be unique",module,Magento_Catalog
 "New Attribute Set","Uusi attribuuttiryhmä",module,Magento_Catalog
@@ -1945,7 +1945,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Not allowed to edit the product's design attributes","Not allowed to edit the product's design attributes",module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","We couldn't copy file %1. Please delete media with non-existing images and try again.",module,Magento_Catalog
 "The image content is invalid. Verify the content and try again.","The image content is invalid. Verify the content and try again.",module,Magento_Catalog
-"The product can't be saved.","The product can't be saved.",module,Magento_Catalog
+"The product can't be saved.","Tuotetta ei voida tallentaa.",module,Magento_Catalog
 "The new media gallery entry failed to save.","The new media gallery entry failed to save.",module,Magento_Catalog
 "No image with the provided ID was found. Verify the ID and try again.","No image with the provided ID was found. Verify the ID and try again.",module,Magento_Catalog
 "The product doesn't exist. Verify and try again.","The product doesn't exist. Verify and try again.",module,Magento_Catalog
@@ -1987,7 +1987,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.","Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.",module,Magento_Catalog
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.",module,Magento_Catalog
 "Could not save Prices.","Hintoja ei voitu tallentaa.",module,Magento_Catalog
-"Could not delete Prices","Could not delete Prices",module,Magento_Catalog
+"Could not delete Prices","Hintoja ei voitu poistaa",module,Magento_Catalog
 "Could not save Tier Prices","Could not save Tier Prices",module,Magento_Catalog
 "Could not replace Tier Prices","Could not replace Tier Prices",module,Magento_Catalog
 "Could not delete Tier Prices","Could not delete Tier Prices",module,Magento_Catalog
@@ -2008,7 +2008,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "The product has required options. Enter the options and try again.","The product has required options. Enter the options and try again.",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
-"Not Visible Individually","Not Visible Individually",module,Magento_Catalog
+"Not Visible Individually","Ei näkyvissä yksilöllisesti",module,Magento_Catalog
 "Search","Haku",module,Magento_Catalog
 "Catalog, Search","Katalogi, Hakutulokset",module,Magento_Catalog
 "Something went wrong while removing products from the websites.","Something went wrong while removing products from the websites.",module,Magento_Catalog
@@ -2043,8 +2043,8 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 doesn't extend \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as","Alkaen",module,Magento_Catalog
 "Could not get extension attributes","Could not get extension attributes",module,Magento_Catalog
-"Message","Message",module,Magento_Catalog
-"HTML is invalid","HTML is invalid",module,Magento_Catalog
+"Message","Viesti",module,Magento_Catalog
+"HTML is invalid","HTML on virheellinen",module,Magento_Catalog
 "fl","fl",module,Magento_Catalog
 "message","viesti",module,Magento_Catalog
 "The product that was requested doesn't exist. Verify the product and try again. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","The product that was requested doesn't exist. Verify the product and try again. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.",module,Magento_Catalog
@@ -2121,7 +2121,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Manage Titles (Size, Color, etc.)","Hallinnoi nimiä (koko, väri jne.)",module,Magento_Catalog
 "Manage Options (Values of Your Attribute)","Hallinnoi vaihtoehtoja (attribuutin arvoja)",module,Magento_Catalog
 "Is Default","Oletus",module,Magento_Catalog
-"Sort Option","Sort Option",module,Magento_Catalog
+"Sort Option","Lajittelu",module,Magento_Catalog
 "The value of Admin must be unique.","The value of Admin must be unique.",module,Magento_Catalog
 "Groups","Ryhmät",module,Magento_Catalog
 "Double click on a group to rename it.","Double click on a group to rename it.",module,Magento_Catalog
@@ -2157,7 +2157,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Stock Availability","Saatavuus varastossa",module,Magento_Catalog
 "In Stock","Varastossa",module,Magento_Catalog
 "Out of Stock","Ei varastossa",module,Magento_Catalog
-"Add Product To Websites","Add Product To Websites",module,Magento_Catalog
+"Add Product To Websites","Lisää tuote sivustoille",module,Magento_Catalog
 "Remove Product From Websites","Remove Product From Websites",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","To hide an item in catalog or search results, set the status to ""Disabled"".",module,Magento_Catalog
 "We can't save custom-defined options for bundles with dynamic pricing.","We can't save custom-defined options for bundles with dynamic pricing.",module,Magento_Catalog
@@ -2282,7 +2282,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Products per Page on List Default Value","Tuotetta per sivu luettelotilassa, oletusarvo",module,Magento_Catalog
 "Use Flat Catalog Category","Use Flat Catalog Category",module,Magento_Catalog
 "Use Flat Catalog Product","Use Flat Catalog Product",module,Magento_Catalog
-"Product Listing Sort by","Product Listing Sort by",module,Magento_Catalog
+"Product Listing Sort by","Tuotelistauksen lajittelu",module,Magento_Catalog
 "Applies to category pages.","Applies to category pages.",module,Magento_Catalog
 "Allow All Products per Page","Salli kaikki tuotteet samalla sivulla",module,Magento_Catalog
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown.","Whether to show ""All"" option in the ""Show X Per Page"" dropdown.",module,Magento_Catalog
@@ -2314,7 +2314,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/m2/ee/user_guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>.","Images should be optimized based on query parameters by your CDN or web server. Use the legacy mode for backward compatibility. <a href=""https://docs.magento.com/m2/ee/user_guide/configuration/general/web.html#url-options"">Learn more</a> about catalog URL formats.<br/><br/><strong style=""color:red"">Warning!</strong> If you switch back to legacy mode, you must <a href=""https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/themes/theme-images.html#resize-catalog-images"">use the CLI to regenerate images</a>.",module,Magento_Catalog
 "System","Järjestelmä",module,Magento_Catalog
 "Images Upload Configuration","Images Upload Configuration",module,Magento_Catalog
-"Quality","Quality",module,Magento_Catalog
+"Quality","Laatu",module,Magento_Catalog
 "Jpeg quality for resized images 1-100%.","Jpeg quality for resized images 1-100%.",module,Magento_Catalog
 "Product Info Column","Product Info Column",module,Magento_Catalog
 "Block after Info Column","Block after Info Column",module,Magento_Catalog
@@ -2655,7 +2655,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "All Websites","Kaikki sivustot",module,Magento_CatalogPermissions
 "All Customer Groups","Kaikki asiakasryhmät",module,Magento_CatalogPermissions
 "Allow","Salli",module,Magento_CatalogPermissions
-"Deny","Deny",module,Magento_CatalogPermissions
+"Deny","Estä",module,Magento_CatalogPermissions
 "Use parent","Use parent",module,Magento_CatalogPermissions
 "Category Permissions Section","Category Permissions Section",module,Magento_CatalogPermissions
 "Enable","Käytä",module,Magento_CatalogPermissions
@@ -2792,7 +2792,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "30","30",module,Magento_CatalogRuleStaging
 "20","20",module,Magento_CatalogRuleStaging
 "Start Time","Aloitusaika",module,Magento_CatalogRuleStaging
-"End Time","End Time",module,Magento_CatalogRuleStaging
+"End Time","Päättymisaika",module,Magento_CatalogRuleStaging
 "Catalog Price Rules","Tuoteluettelon hintasäännöt",module,Magento_CatalogRuleStaging
 "Remove Catalog Price Rule from Campaign","Remove Catalog Price Rule from Campaign",module,Magento_CatalogRuleStaging
 "Home","Etusivu",module,Magento_CatalogSearch
@@ -2888,7 +2888,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Use Config Settings","Käytä kokoonpanon asetuksia",module,Magento_CatalogStaging
 "Layered Navigation Price Step","Layered Navigation Price Step",module,Magento_CatalogStaging
 "Search Engine Optimization","Hakukoneoptimointi",module,Magento_CatalogStaging
-"URL Key","URL Key",module,Magento_CatalogStaging
+"URL Key","URL-osoite",module,Magento_CatalogStaging
 "Meta Title","Meta otsikko",module,Magento_CatalogStaging
 "Meta Keywords","Meta avainsanat",module,Magento_CatalogStaging
 "Meta Description","Metakuvaus",module,Magento_CatalogStaging
@@ -2995,7 +2995,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "We can't remove the item.","Emme voi poistaa tuotetta.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 päivitettiin ostoskorissa.",module,Magento_Checkout
 "We can't update the item right now.","Tuotetta ei voida päivittää juuri nyt.",module,Magento_Checkout
-"Page Not Found","Page Not Found",module,Magento_Checkout
+"Page Not Found","Sivua ei löytynyt",module,Magento_Checkout
 "Something went wrong while saving the page. Please refresh the page and try again.","Something went wrong while saving the page. Please refresh the page and try again.",module,Magento_Checkout
 "We can't update the shopping cart.","Ostoskoria ei voida päivittää.",module,Magento_Checkout
 "One-page checkout is turned off.","Yhden sivun kassa on poistettu käytöstä.",module,Magento_Checkout
@@ -3008,8 +3008,8 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "Payment Method","Maksutapa",module,Magento_Checkout
 "Payment Page","Maksusivu",module,Magento_Checkout
-"Incorrect CAPTCHA","Incorrect CAPTCHA",module,Magento_Checkout
-"Please provide CAPTCHA code and try again","Please provide CAPTCHA code and try again",module,Magento_Checkout
+"Incorrect CAPTCHA","Virheellinen CAPTCHA",module,Magento_Checkout
+"Please provide CAPTCHA code and try again","Anna CAPTCHA-koodi ja yritä uudelleen",module,Magento_Checkout
 "The product wasn't found. Verify the product and try again.","The product wasn't found. Verify the product and try again.",module,Magento_Checkout
 "We found an invalid request for adding product to quote.","Löysimme virheellisen pyynnön lisätä tuote tarjoukseen.",module,Magento_Checkout
 "The product does not exist.","Tuotetta ei ole olemassa.",module,Magento_Checkout
@@ -3127,7 +3127,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Shipping Address","Toimitusosoite",module,Magento_Checkout
 "New Address","Uusi osoite",module,Magento_Checkout
 "Shipping Methods","Shipping Methods",module,Magento_Checkout
-"Next","Next",module,Magento_Checkout
+"Next","Seuraava",module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Sorry, no quotes are available for this order at this time",module,Magento_Checkout
 "Order Summary","Tilauksen yhteenveto",module,Magento_Checkout
 "View Details","Näytä yksityiskohdat",module,Magento_Checkout
@@ -3223,9 +3223,9 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Back","Takaisin",module,Magento_Cms
 "Delete Block","Poista lohko",module,Magento_Cms
 "Are you sure you want to do this?","Haluatko varmasti tehdä tämän?",module,Magento_Cms
-"Save","Save",module,Magento_Cms
-"Save & Duplicate","Save & Duplicate",module,Magento_Cms
-"Save & Close","Save & Close",module,Magento_Cms
+"Save","Tallenna",module,Magento_Cms
+"Save & Duplicate","Tallenna & luo kaksoiskappale",module,Magento_Cms
+"Save & Close","Tallenna & sulje",module,Magento_Cms
 "ID","Tunnus",module,Magento_Cms
 "Title","Otsikko",module,Magento_Cms
 "Identifier","Tunniste",module,Magento_Cms
@@ -3243,10 +3243,10 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Action","Toiminto",module,Magento_Cms
 "Preview","Esikatselu",module,Magento_Cms
 "Media Storage","Media Storage",module,Magento_Cms
-"Cancel","Cancel",module,Magento_Cms
+"Cancel","Peruuta",module,Magento_Cms
 "Delete Folder","Poista kansio",module,Magento_Cms
 "Delete Selected","Delete Selected",module,Magento_Cms
-"Create Folder","Create Folder",module,Magento_Cms
+"Create Folder","Luo kansio",module,Magento_Cms
 "Add Selected","Add Selected",module,Magento_Cms
 "New Folder Name:","New Folder Name:",module,Magento_Cms
 "Are you sure you want to delete this folder?","Haluatko varmasti poistaa tämän kansion?",module,Magento_Cms
@@ -3256,7 +3256,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "The CMS block with identifier ""%identifier"" is not enabled.","The CMS block with identifier ""%identifier"" is not enabled.",module,Magento_Cms
 "Home","Etusivu",module,Magento_Cms
 "Go to Home Page","Siirry etusivulle",module,Magento_Cms
-"CMS","CMS",module,Magento_Cms
+"CMS","Sisällönhallinta",module,Magento_Cms
 "You deleted the block.","Lohko poistettiin.",module,Magento_Cms
 "We can't find a block to delete.","Poistettavaa lohkoa ei löydy.",module,Magento_Cms
 "This block no longer exists.","Tätä lohkoa ei ole enää olemassa.",module,Magento_Cms
@@ -3319,7 +3319,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Invalid HTML provided","Invalid HTML provided",module,Magento_Cms
 "Privacy and Cookie Policy","Yksityisyys ja evästeet",module,Magento_Cms
 "NoSuchEntityException","NoSuchEntityException",module,Magento_Cms
-"Error message","Error message",module,Magento_Cms
+"Error message","Virheilmoitus",module,Magento_Cms
 "LocalizedException","LocalizedException",module,Magento_Cms
 "Could not create a directory.","Hakemistoa ei voitu luoda.",module,Magento_Cms
 "Oh no. That isn't right.","Oh no. That isn't right.",module,Magento_Cms
@@ -3353,7 +3353,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Default Page Layout","Default Page Layout",module,Magento_Cms
 "WYSIWYG Options","WYSIWYG Options",module,Magento_Cms
 "Enable WYSIWYG Editor","Enable WYSIWYG Editor",module,Magento_Cms
-"WYSIWYG Editor","WYSIWYG Editor",module,Magento_Cms
+"WYSIWYG Editor","WYSIWYG-editori",module,Magento_Cms
 "CMS Page Link","CMS Page Link",module,Magento_Cms
 "Link to a CMS Page","Link to a CMS Page",module,Magento_Cms
 "CMS Page","Sisältösivu",module,Magento_Cms
@@ -3476,12 +3476,12 @@ See Magento documentation for more information,module,Magento_CmsStaging
 "Status","Tila",module,Magento_CmsStaging
 "Delete Customer","Poista asiakas",module,Magento_Company
 "Back","Takaisin",module,Magento_Company
-"Delete Company","Delete Company",module,Magento_Company
+"Delete Company","Poista yritys",module,Magento_Company
 "Reset","Tyhjennä",module,Magento_Company
 "Save","Tallenna",module,Magento_Company
 "Save & Close","Tallenna & sulje",module,Magento_Company
 "Companies","Yritykset",module,Magento_Company
-"Add New Company","Add New Company",module,Magento_Company
+"Add New Company","Lisää uusi yritys",module,Magento_Company
 "(me)","(me)",module,Magento_Company
 "Company Name:","Yrityksen nimi:",module,Magento_Company
 "Company Legal Name:","Company Legal Name:",module,Magento_Company
@@ -3556,7 +3556,7 @@ See Magento documentation for more information,module,Magento_CmsStaging
 "Active","Aktiivinen",module,Magento_Company
 "Pending Approval","Pending Approval",module,Magento_Company
 "Rejected","Hylätty",module,Magento_Company
-"Blocked","Blocked",module,Magento_Company
+"Blocked","Estetty",module,Magento_Company
 "The company admin cannot be moved to a different location in the company structure.","The company admin cannot be moved to a different location in the company structure.",module,Magento_Company
 "A user or a team cannot be moved under itself.","A user or a team cannot be moved under itself.",module,Magento_Company
 "A user or a team cannot be moved under its child user or team.","A user or a team cannot be moved under its child user or team.",module,Magento_Company
@@ -3632,7 +3632,7 @@ See Magento documentation for more information,module,Magento_CmsStaging
 "Company Information","Company Information",module,Magento_Company
 "Company Legal Name","Company Legal Name",module,Magento_Company
 "Company Email","Company Email",module,Magento_Company
-"VAT/TAX ID","VAT/TAX ID",module,Magento_Company
+"VAT/TAX ID","Y-tunnus /VAT-numero",module,Magento_Company
 "Re-seller ID","Re-seller ID",module,Magento_Company
 "Legal Address","Legal Address",module,Magento_Company
 "Street Address","Katuosoite",module,Magento_Company
@@ -3654,8 +3654,8 @@ See Magento documentation for more information,module,Magento_CmsStaging
 "Collapse All","Collapse All",module,Magento_Company
 "Add User","Lisää käyttäjä",module,Magento_Company
 "Add Team","Lisää tiimi",module,Magento_Company
-"Edit Selected","Edit Selected",module,Magento_Company
-"Delete Selected","Delete Selected",module,Magento_Company
+"Edit Selected","Muokkaa valittuja",module,Magento_Company
+"Delete Selected","Poista valitut",module,Magento_Company
 "Error","Virhe",module,Magento_Company
 "Status","Tila",module,Magento_Company
 "Team Title","Team Title",module,Magento_Company
@@ -3694,11 +3694,11 @@ the company's shared resources will be available for you.",module,Magento_Compan
 please contact the company Admin at %company_admin_email.","If this is a mistake,,module,Magento_Company
 please contact the company Admin at %company_admin_email.",module,Magento_Company
 "A company has invited you to join","A company has invited you to join",module,Magento_Company
-"Dear %firstname","Dear %firstname",module,Magento_Company
+"Dear %firstname","Hei %firstname",module,Magento_Company
 "%admin has invited you to join %company, click the link below to accept","%admin has invited you to join %company, click the link below to accept",module,Magento_Company
 "Your account is now active","Your account is now active",module,Magento_Company
 "Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.","Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.",module,Magento_Company
-"Your account is locked","Your account is locked",module,Magento_Company
+"Your account is locked","Tilisi on lukittu",module,Magento_Company
 "Your account is no longer active. You will not be able to use it for login.","Your account is no longer active. You will not be able to use it for login.",module,Magento_Company
 "If this is a mistake, please contact the seller.","If this is a mistake, please contact the seller.",module,Magento_Company
 "Your account set inactive","Your account set inactive",module,Magento_Company
@@ -3849,14 +3849,14 @@ for the following reason:",module,Magento_Company
 "The reason will appear in the 'Rejected' email sent to the Company Admin. It will also be saved and displayed in Admin Panel (in the company profile).","The reason will appear in the 'Rejected' email sent to the Company Admin. It will also be saved and displayed in Admin Panel (in the company profile).",module,Magento_Company
 "Are you sure you want to block this company? If you proceed, the company members will not be able to place orders.","Are you sure you want to block this company? If you proceed, the company members will not be able to place orders.",module,Magento_Company
 "Reason for Rejection","Reason for Rejection",module,Magento_Company
-"VAT / TAX ID","VAT / TAX ID",module,Magento_Company
+"VAT / TAX ID","Y-tunnus / VAT-numero",module,Magento_Company
 "Website","Sivusto",module,Magento_Company
 "Prefix","Etuliite",module,Magento_Company
 "First Name","Etunimi",module,Magento_Company
 "Middle Name/Initial","Middle Name/Initial",module,Magento_Company
 "Last Name","Sukunimi",module,Magento_Company
 "Suffix","Jälkiliite",module,Magento_Company
-"Send Welcome Email From","Send Welcome Email From",module,Magento_Company
+"Send Welcome Email From","Lähetä tervetuliaissähköposti lähettäjältä",module,Magento_Company
 "Advanced Settings","Lisäasetukset",module,Magento_Company
 "Change Customer Group?","Change Customer Group?",module,Magento_Company
 "This action will change the customer group for all members of this company. Would you like to proceed?","This action will change the customer group for all members of this company. Would you like to proceed?",module,Magento_Company
@@ -3870,7 +3870,7 @@ for the following reason:",module,Magento_Company
 "Create New Company Account","Create New Company Account",module,Magento_Company
 "Name","Nimi",module,Magento_Company
 "Role","Rooli",module,Magento_Company
-"Team","Team",module,Magento_Company
+"Team","Tiimi",module,Magento_Company
 "Users","Käyttäjät",module,Magento_Company
 "Reimburse Balance","Reimburse Balance",module,Magento_CompanyCredit
 "Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company is not active.","Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company is not active.",module,Magento_CompanyCredit
@@ -4079,7 +4079,7 @@ Maximum 255 characters are allowed.,module,Magento_CompanyCredit
 "The specified image adapter cannot be used because of: %1","The specified image adapter cannot be used because of: %1",module,Magento_Config
 "Default scope","Default scope",module,Magento_Config
 "Base currency","Oletusvaluutta",module,Magento_Config
-"Display default currency","Display default currency",module,Magento_Config
+"Display default currency","Näytä oletusvaluutta",module,Magento_Config
 "website(%1) scope","website(%1) scope",module,Magento_Config
 "store(%1) scope","store(%1) scope",module,Magento_Config
 "Currency ""%1"" is used as %2 in %3.","Currency ""%1"" is used as %2 in %3.",module,Magento_Config
@@ -4184,7 +4184,7 @@ Maximum 255 characters are allowed.,module,Magento_CompanyCredit
 "The variations from the ""%1"" product can't be deleted.","The variations from the ""%1"" product can't be deleted.",module,Magento_ConfigurableProduct
 "The option with ""%1"" ID can't be deleted.","The option with ""%1"" ID can't be deleted.",module,Magento_ConfigurableProduct
 "Option with id ""%1"" not found","Option with id ""%1"" not found",module,Magento_ConfigurableProduct
-"An error occurred while saving the option. Please try to save again.","An error occurred while saving the option. Please try to save again.",module,Magento_ConfigurableProduct
+"An error occurred while saving the option. Please try to save again.","Asetusta tallennettaessa tapahtui virhe. Yritä tallentaa uudelleen.",module,Magento_ConfigurableProduct
 "This is implemented for the ""%1"" configurable product only.","This is implemented for the ""%1"" configurable product only.",module,Magento_ConfigurableProduct
 "Option attribute ID is not specified.","Option attribute ID is not specified.",module,Magento_ConfigurableProduct
 "Option label is not specified.","Option label is not specified.",module,Magento_ConfigurableProduct
@@ -4200,7 +4200,7 @@ Maximum 255 characters are allowed.,module,Magento_CompanyCredit
 "Choose Affected Attribute Set","Choose Affected Attribute Set",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Add configurable attributes to the current Attribute Set",module,Magento_ConfigurableProduct
 "Confirm","Vahvista",module,Magento_ConfigurableProduct
-"New Attribute Set Name","New Attribute Set Name",module,Magento_ConfigurableProduct
+"New Attribute Set Name","Uuden attribuuttiryhmän nimi",module,Magento_ConfigurableProduct
 "Select Associated Product","Select Associated Product",module,Magento_ConfigurableProduct
 "Done","Valmis",module,Magento_ConfigurableProduct
 "Choose a new product to delete and replace the current product configuration.","Choose a new product to delete and replace the current product configuration.",module,Magento_ConfigurableProduct
@@ -4243,14 +4243,14 @@ Maximum 255 characters are allowed.,module,Magento_CompanyCredit
 "Browse to find or drag image here","Browse to find or drag image here",module,Magento_ConfigurableProduct
 "Remove image","Poista kuva",module,Magento_ConfigurableProduct
 "Hidden","Piilotettu",module,Magento_ConfigurableProduct
-"Alt Text","Alt Text",module,Magento_ConfigurableProduct
+"Alt Text","Alt teksti",module,Magento_ConfigurableProduct
 "Role","Rooli",module,Magento_ConfigurableProduct
 "Image Size","Kuvan koko",module,Magento_ConfigurableProduct
 "{size}","{size}",module,Magento_ConfigurableProduct
 "Image Resolution","Kuvan resoluutio",module,Magento_ConfigurableProduct
 "{width}^{height} px","{width}^{height} px",module,Magento_ConfigurableProduct
 "Hide from Product Page","Piilota tuotesivulta",module,Magento_ConfigurableProduct
-"Select attribute","Select attribute",module,Magento_ConfigurableProduct
+"Select attribute","Valitse attribuutti",module,Magento_ConfigurableProduct
 "Select","Valitse",module,Magento_ConfigurableProduct
 "Apply single price to all SKUs","Apply single price to all SKUs",module,Magento_ConfigurableProduct
 "Apply unique prices by attribute to each SKU","Apply unique prices by attribute to each SKU",module,Magento_ConfigurableProduct
@@ -4266,13 +4266,13 @@ You need to create a simple product for each configuration (Ex: a product for ea
 You need to create a simple product for each configuration (Ex: a product for each color).",module,Magento_ConfigurableProduct
 "Edit Configurations","Muokkaa konfiguraatioita",module,Magento_ConfigurableProduct
 "Upload Image","Lähetä kuva",module,Magento_ConfigurableProduct
-"Upload image","Upload image",module,Magento_ConfigurableProduct
+"Upload image","Lataa kuva",module,Magento_ConfigurableProduct
 "No Image","Ei kuvaa",module,Magento_ConfigurableProduct
 "Choose a different Product","Choose a different Product",module,Magento_ConfigurableProduct
 "Remove Product","Poista tuote",module,Magento_ConfigurableProduct
 "Create Product Configurations","Luo tuotekonfiguraatioita",module,Magento_ConfigurableProduct
 "Cancel","Peruuta",module,Magento_ConfigurableProduct
-"As low as","As low as",module,Magento_ConfigurableProduct
+"As low as","Alkaen",module,Magento_ConfigurableProduct
 "Regular Price","Normaalihinta",module,Magento_ConfigurableProduct
 "Excl. Tax","Excl. Tax",module,Magento_ConfigurableProduct
 "Buy %1 for %2 each and","Buy %1 for %2 each and",module,Magento_ConfigurableProduct
@@ -4311,7 +4311,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Scope","Kohde",module,Magento_ConfigurableProduct
 "Searchable","Haettavissa",module,Magento_ConfigurableProduct
 "Comparable","Vertailtavissa",module,Magento_ConfigurableProduct
-"As low as: ","As low as: ",module,Magento_ConfigurableProduct
+"As low as: ","Alkaen: ",module,Magento_ConfigurableProduct
 "Save","Tallenna",module,Magento_ConfigurableProductStaging
 "Select...","Valitse...",module,Magento_ConfigurableProductStaging
 "Status","Tila",module,Magento_ConfigurableProductStaging
@@ -4346,8 +4346,8 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "What’s on your mind?","Mikä on mielessäsi?",module,Magento_Contact
 "Submit","Lähetä",module,Magento_Contact
 "Contact Form","Yhteydenottolomake",module,Magento_Contact
-"Phone","Phone",module,Magento_Contact
-"Message","Message",module,Magento_Contact
+"Phone","Puhelin",module,Magento_Contact
+"Message","Viesti",module,Magento_Contact
 "Contacts Section","Yhteystiedot",module,Magento_Contact
 "Contacts","Kontaktit",module,Magento_Contact
 "Contact Us","Ota yhteyttä",module,Magento_Contact
@@ -4369,7 +4369,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Cookie Lifetime","Evästeen elinikä",module,Magento_Cookie
 "Enter the Cookie Lifetime in seconds.","Enter the Cookie Lifetime in seconds.",module,Magento_Cookie
 "Cookie Path","Evästeen polku",module,Magento_Cookie
-"Enter a valid cookie path. e.g. /","Enter a valid cookie path. e.g. /",module,Magento_Cookie
+"Enter a valid cookie path. e.g. /","Anna kelvollinen evästeen polku. esim. /",module,Magento_Cookie
 "Cookie Domain","Evästeen verkkotunnus",module,Magento_Cookie
 "Enter a valid domain name. e.g. ""subdomain.yourdomain.com"", "".yourdomain.com""","Enter a valid domain name. e.g. ""subdomain.yourdomain.com"", "".yourdomain.com""",module,Magento_Cookie
 "Use HTTP Only","Käytä vain HTTP:tä",module,Magento_Cookie
@@ -4559,7 +4559,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Done","Done",module,Magento_Customer
 "Prev","Prev",module,Magento_Customer
 "Next","Next",module,Magento_Customer
-"Today","Today",module,Magento_Customer
+"Today","Tänään",module,Magento_Customer
 "Bad request.","Virheellinen pyyntö.",module,Magento_Customer
 "This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut.",module,Magento_Customer
 "There was an error confirming the account","Tilin vahvistamisessa tapahtui virhe",module,Magento_Customer
@@ -4570,7 +4570,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "This email does not require confirmation.","Tämä sähköposti ei vaadi vahvistusta.",module,Magento_Customer
 "Wrong email.","Väärä sähköpostiosoite.",module,Magento_Customer
 "Your password reset link has expired.","Salasanan palautuslinkki on vanhentunut.",module,Magento_Customer
-"Invalid Form Key. Please refresh the page.","Invalid Form Key. Please refresh the page.",module,Magento_Customer
+"Invalid Form Key. Please refresh the page.","Virheellinen lomakkeen avain. Ole hyvä ja päivitä sivu.",module,Magento_Customer
 "We can't save the customer.","Asiakasta ei voida tallentaa.",module,Magento_Customer
 "Please make sure your passwords match.","Varmista, että salasanat täsmäävät.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Jos olet rekisteröitynyt ALV-asiakas, ole hyvä ja klikkaa <a href=""%1""> tästä</a> syöttääksesi toimitusosoitteen oikeaa ALV-laskentaa varten.",module,Magento_Customer
@@ -4761,7 +4761,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Set as default shipping","Set as default shipping",module,Magento_Customer
 "Set address as default shipping","Set address as default shipping",module,Magento_Customer
 "Are you sure you want to set the address as default shipping address?","Are you sure you want to set the address as default shipping address?",module,Magento_Customer
-"Delete address","Delete address",module,Magento_Customer
+"Delete address","Poista osoite",module,Magento_Customer
 "Are you sure you want to delete the address?","Are you sure you want to delete the address?",module,Magento_Customer
 "Visitor","Vierailija",module,Magento_Customer
 "Customer","Asiakas",module,Magento_Customer
@@ -4893,7 +4893,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Checkout using your account","Checkout using your account",module,Magento_Customer
 "Email Address","Sähköpostiosoite",module,Magento_Customer
 "Are you sure you want to do this?","Haluatko varmasti tehdä tämän?",module,Magento_Customer
-"Sorry, there has been an error processing your request. Please try again later.","Sorry, there has been an error processing your request. Please try again later.",module,Magento_Customer
+"Sorry, there has been an error processing your request. Please try again later.","Valitettavasti tapahtui virhe käsiteltäessä pyyntöä. Yritä myöhemmin uudelleen.",module,Magento_Customer
 "Could not authenticate. Please try again later","Could not authenticate. Please try again later",module,Magento_Customer
 "Are you sure you want to delete this address?","Oletko varma, että haluat poistaa tämän osoitteen?",module,Magento_Customer
 "Provided Zip/Postal Code seems to be invalid.","Provided Zip/Postal Code seems to be invalid.",module,Magento_Customer
@@ -4912,19 +4912,19 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Now Online","Nyt paikalla",module,Magento_Customer
 "Customers Section","Customers Section",module,Magento_Customer
 "Customer Configuration","Asiakkaiden hallinnointi",module,Magento_Customer
-"Account Sharing Options","Account Sharing Options",module,Magento_Customer
+"Account Sharing Options","Tilin jakamisen asetukset",module,Magento_Customer
 "Share Customer Accounts","Share Customer Accounts",module,Magento_Customer
 "Create New Account Options","Create New Account Options",module,Magento_Customer
 "Enable Automatic Assignment to Customer Group","Enable Automatic Assignment to Customer Group",module,Magento_Customer
 "Tax Calculation Based On","Tax Calculation Based On",module,Magento_Customer
-"Default Group","Default Group",module,Magento_Customer
+"Default Group","Oletusryhmä",module,Magento_Customer
 "Group for Valid VAT ID - Domestic","Group for Valid VAT ID - Domestic",module,Magento_Customer
 "Group for Valid VAT ID - Intra-Union","Group for Valid VAT ID - Intra-Union",module,Magento_Customer
 "Group for Invalid VAT ID","Group for Invalid VAT ID",module,Magento_Customer
 "Validation Error Group","Validation Error Group",module,Magento_Customer
 "Validate on Each Transaction","Validate on Each Transaction",module,Magento_Customer
 "Default Value for Disable Automatic Group Changes Based on VAT ID","Default Value for Disable Automatic Group Changes Based on VAT ID",module,Magento_Customer
-"Show VAT Number on Storefront","Show VAT Number on Storefront",module,Magento_Customer
+"Show VAT Number on Storefront","Näytä ALV-numero/Y-tunnus kaupan etusivulla",module,Magento_Customer
 "To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.",module,Magento_Customer
 "Default Email Domain","Default Email Domain",module,Magento_Customer
 "Default Welcome Email","Oletustervetuliaisviesti",module,Magento_Customer
@@ -4996,8 +4996,8 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Customer Grid","Customer Grid",module,Magento_Customer
 "Rebuild Customer grid index","Rebuild Customer grid index",module,Magento_Customer
 "Update Address","Update Address",module,Magento_Customer
-"Name Prefix","Name Prefix",module,Magento_Customer
-"Name Suffix","Name Suffix",module,Magento_Customer
+"Name Prefix","Nimen etuliite",module,Magento_Customer
+"Name Suffix","Nimen jälkiliite",module,Magento_Customer
 "Middle Name/Initial","Middle Name/Initial",module,Magento_Customer
 "State/Province","Osavaltio/provinssi",module,Magento_Customer
 "VAT Number","Y-tunnus",module,Magento_Customer
