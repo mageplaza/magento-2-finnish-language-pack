@@ -428,7 +428,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Sort Order","Lajittelujärjestys",module,Magento_Authorizenet
 "Cannot place order.","Tilausta ei voida tehdä.",module,Magento_Authorizenet
 "'Gateway error: ' .","'Gateway error: ' .",module,Magento_Authorizenet
-"Unable to place order. Please try again later.","Tilaus ei onnistunut. Yritä myöhemmin uudelleen.",module,Magento_Authorizenet
+"Unable to place order. Please try again later.","Tilauksen lisäys ei onnistu. Yritä myöhemmin uudelleen.",module,Magento_Authorizenet
 "A server error stopped your order from being placed. Please try to place your order again.","Palvelimen virhe pysäytti tilauksen etenimisen. Yritä tilata tilauksesi uudelleen.",module,Magento_Authorizenet
 "The transaction details are unavailable. Please try again later.","Tapahtumatiedot eivät ole käytettävissä. Yritä myöhemmin uudelleen.",module,Magento_Authorizenet
 "Authorize.Net Direct Post (Deprecated)","Authorize.Net Direct Post (Deprecated)",module,Magento_Authorizenet
@@ -1471,7 +1471,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "The bundle product doesn't exist. Review your request and try again.","The bundle product doesn't exist. Review your request and try again.",module,Magento_Bundle
 "The option that was requested doesn't exist. Verify the entity and try again.","The option that was requested doesn't exist. Verify the entity and try again.",module,Magento_Bundle
 "The option couldn't be saved.","The option couldn't be saved.",module,Magento_Bundle
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Bundle
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Bundle
 "The option with ""%1"" ID can't be deleted.","The option with ""%1"" ID can't be deleted.",module,Magento_Bundle
 "Price Range","Hintahaarukka",module,Magento_Bundle
 "As Low as","Alkaen",module,Magento_Bundle
@@ -1779,7 +1779,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Category is not available for requested store.","Kategoria ei ole saatavilla pyytämässäsi kaupassa.",module,Magento_Catalog
 "There was a category move error.","Katogorian siirtovirhe.",module,Magento_Catalog
 "You moved the category.","Siirsit kategorian.",module,Magento_Catalog
-"The ""%1"" attribute is required. Enter and try again.","The ""%1"" attribute is required. Enter and try again.",module,Magento_Catalog
+"The ""%1"" attribute is required. Enter and try again.","The ""%1"" attribute vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Catalog
 "Something went wrong while saving the category.","Tapahtui virhe kategoriaa tallennettaessa.",module,Magento_Catalog
 "You saved the category.","Tallensit kategorian.",module,Magento_Catalog
 "Please select products for attributes update.","Valitse tuotteita atribuuttien päivitykseen.",module,Magento_Catalog
@@ -2846,7 +2846,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Enable EAV Indexer","Enable EAV Indexer",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","Rebuild Catalog product fulltext search index",module,Magento_CatalogSearch
 "The ProductSku is empty. Set the ProductSku and try again.","The ProductSku is empty. Set the ProductSku and try again.",module,Magento_CatalogStaging
-"The ""%1"" attribute is required. Enter and try again.","The ""%1"" attribute is required. Enter and try again.",module,Magento_CatalogStaging
+"The ""%1"" attribute is required. Enter and try again.","The ""%1"" attribute vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_CatalogStaging
 "Enabled","Käytössä",module,Magento_CatalogStaging
 "Disabled","Ei käytössä",module,Magento_CatalogStaging
 "Future Update already exists in this time range. Set a different range and try again.","Future Update already exists in this time range. Set a different range and try again.",module,Magento_CatalogStaging
@@ -3580,7 +3580,7 @@ See Magento documentation for more information,module,Magento_CmsStaging
 "Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".",module,Magento_Company
 "There was an error saving custom attributes.","There was an error saving custom attributes.",module,Magento_Company
 "Invalid value of ""%value"" provided for the %fieldName field.","Invalid value of ""%value"" provided for the %fieldName field.",module,Magento_Company
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Company
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Company
 "No such entity with %fieldName = %fieldValue","No such entity with %fieldName = %fieldValue",module,Magento_Company
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.",module,Magento_Company
 "You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.","You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.",module,Magento_Company
@@ -3896,7 +3896,7 @@ for the following reason:",module,Magento_Company
 "Payment On Account cannot be used for this order because your order amount exceeds your credit amount.","Payment On Account cannot be used for this order because your order amount exceeds your credit amount.",module,Magento_CompanyCredit
 "Cannot process the request. Please check the operation type and try again.","Cannot process the request. Please check the operation type and try again.",module,Magento_CompanyCredit
 "Invalid attribute value. Row ID: %fieldName = %fieldValue.","Invalid attribute value. Row ID: %fieldName = %fieldValue.",module,Magento_CompanyCredit
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_CompanyCredit
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_CompanyCredit
 "The selected currency is not available. Please select a different currency.","The selected currency is not available. Please select a different currency.",module,Magento_CompanyCredit
 "Could not update history","Could not update history",module,Magento_CompanyCredit
 "Requested company is not found. Row ID: %fieldName = %fieldValue.","Requested company is not found. Row ID: %fieldName = %fieldValue.",module,Magento_CompanyCredit
@@ -4659,7 +4659,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "A customer with the same email address already exists in an associated website.","A customer with the same email address already exists in an associated website.",module,Magento_Customer
 "The store view is not in the associated website.","The store view is not in the associated website.",module,Magento_Customer
 "Invalid value of ""%value"" provided for the %fieldName field.","Invalid value of ""%value"" provided for the %fieldName field.",module,Magento_Customer
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Customer
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Customer
 "The password token is mismatched. Reset and try again.","The password token is mismatched. Reset and try again.",module,Magento_Customer
 "The password token is expired. Reset and try again.","The password token is expired. Reset and try again.",module,Magento_Customer
 "The transactional account email type is incorrect. Verify and try again.","The transactional account email type is incorrect. Verify and try again.",module,Magento_Customer
@@ -4747,7 +4747,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "NOT LOGGED IN","EI KIRJAUTUNEENA SISÄÄN",module,Magento_Customer
 "Please enter the state/province.","Please enter the state/province.",module,Magento_Customer
 "region is a required field.","region is a required field.",module,Magento_Customer
-"""regionId"" is required. Enter and try again.","""regionId"" is required. Enter and try again.",module,Magento_Customer
+"""regionId"" is required. Enter and try again.","""regionId"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Customer
 "Customer does not exist","Customer does not exist",module,Magento_Customer
 "Something went wrong","Something went wrong",module,Magento_Customer
 "Label","Label",module,Magento_Customer
@@ -7236,7 +7236,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "The tokens couldn't be revoked.","The tokens couldn't be revoked.",module,Magento_Integration
 "An error occurred during the attempt to grant permissions. For details, see the exceptions log.","An error occurred during the attempt to grant permissions. For details, see the exceptions log.",module,Magento_Integration
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.",module,Magento_Integration
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Integration
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Integration
 "This customer has no tokens.","This customer has no tokens.",module,Magento_Integration
 "Inactive","Ei käytössä",module,Magento_Integration
 "Active","Aktiivinen",module,Magento_Integration
@@ -8134,7 +8134,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "%fileType is not an allowed file type. Please select a different file.","%fileType is not an allowed file type. Please select a different file.",module,Magento_NegotiableQuote
 "The maximum file name length is 20 characters. The only special symbols that are allowed in the file name are: dash and underscore. Row ID: %fieldName = %fieldValue","The maximum file name length is 20 characters. The only special symbols that are allowed in the file name are: dash and underscore. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
 "Cannot attach the file %filename. The maximum allowed file size is %size Mb.","Cannot attach the file %filename. The maximum allowed file size is %size Mb.",module,Magento_NegotiableQuote
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_NegotiableQuote
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_NegotiableQuote
 "Invalid attribute value. Row ID: %fieldName = %fieldValue","Invalid attribute value. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
 "Invalid attribute value. The price must be NULL, 0 or a positive number. Row ID: %fieldName = %fieldValue","Invalid attribute value. The price must be NULL, 0 or a positive number. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
 "You cannot update the quote status.","You cannot update the quote status.",module,Magento_NegotiableQuote
@@ -9631,7 +9631,7 @@ or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" 
 "Some item options or their combination are not currently available.","Joitakin nimikkeen vaihtoehtoja tai niiden yhdistelmää ei ole tällä hetkellä käytettävissä.",module,Magento_Quote
 "The %1 Cart doesn't contain the %2 item.","The %1 Cart doesn't contain the %2 item.",module,Magento_Quote
 "The quote couldn't be saved.","The quote couldn't be saved.",module,Magento_Quote
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Quote
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Quote
 "The item couldn't be removed from the quote.","The item couldn't be removed from the quote.",module,Magento_Quote
 "The qty value is required to update quote item.","Määrän arvo vaaditaan tarjottavan nimikkeen päivittämiseksi.",module,Magento_Quote
 "Minimum order amount is %1","Vähimmäistilausmäärä on %1",module,Magento_Quote
@@ -9643,8 +9643,8 @@ or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" 
 "The customer can't be assigned to the cart because the cart isn't anonymous.","The customer can't be assigned to the cart because the cart isn't anonymous.",module,Magento_Quote
 "A server error stopped your order from being placed. Please try to place your order again.","A server error stopped your order from being placed. Please try to place your order again.",module,Magento_Quote
 "Invalid state change requested","Invalid state change requested",module,Magento_Quote
-"Only 1 shipping assignment can be set","Vain 1 toimitustehtävä voidaan asettaa",module,Magento_Quote
-"This item price or quantity is not valid for checkout.","Tämän nimikkeen hinta tai määrä ei kelpaa kassalle.",module,Magento_Quote
+"Only 1 shipping assignment can be set","Vain yksi toimitusmääritys voidaan määrittää",module,Magento_Quote
+"This item price or quantity is not valid for checkout.","Tuotteen hinta tai määrä ei kelpaa kassatoiminnolle.",module,Magento_Quote
 "Something went wrong. Please try to place the order again.","Something went wrong. Please try to place the order again.",module,Magento_Quote
 "Store Credit","Saldo kaupassa",module,Magento_Quote
 "Discount","Alennus",module,Magento_Quote
@@ -9658,9 +9658,9 @@ or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" 
 "Carts","Ostoskorit",module,Magento_Quote
 "Manage carts","Hallitse ostoskoreja",module,Magento_Quote
 "Some addresses can't be used due to the configurations for specific countries.","Some addresses can't be used due to the configurations for specific countries.",module,Magento_Quote
-"Please check the shipping address information.","Please check the shipping address information.",module,Magento_Quote
+"Please check the shipping address information.","Tarkista toimitusosoitteen tiedot.",module,Magento_Quote
 "The shipping method is missing. Select the shipping method and try again.","The shipping method is missing. Select the shipping method and try again.",module,Magento_Quote
-"Please check the billing address information.","Please check the billing address information.",module,Magento_Quote
+"Please check the billing address information.","Tarkista laskutusosoitteen tiedot.",module,Magento_Quote
 "Enter a valid payment method and try again.","Enter a valid payment method and try again.",module,Magento_Quote
 "Shopping cart error: %message","Shopping cart error: %message",module,Magento_QuoteGraphQl
 "Could not find a product with SKU ""%sku""","Could not find a product with SKU ""%sku""",module,Magento_QuoteGraphQl
@@ -13467,7 +13467,7 @@ We back our approvals with 100% chargeback protection, reimbursing you the full 
 "The ZIP Code is invalid. Use numbers only.","The ZIP Code is invalid. Use numbers only.",module,Magento_Tax
 "Range To should be equal or greater than Range From.","Range To should be equal or greater than Range From.",module,Magento_Tax
 "The tax rate can't be removed because it exists in a tax rule.","The tax rate can't be removed because it exists in a tax rule.",module,Magento_Tax
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Tax
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_Tax
 "Invalid value of ""%value"" provided for the %fieldName field.","Invalid value of ""%value"" provided for the %fieldName field.",module,Magento_Tax
 "This class no longer exists.","This class no longer exists.",module,Magento_Tax
 "You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.","You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.",module,Magento_Tax
@@ -14321,9 +14321,9 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "More permissions are needed to access this.","More permissions are needed to access this.",module,Magento_User
 "The password reset token is incorrect. Verify the token and try again.","The password reset token is incorrect. Verify the token and try again.",module,Magento_User
 "Your account is temporarily disabled. Please try again later.","Your account is temporarily disabled. Please try again later.",module,Magento_User
-"""User Name"" is required. Enter and try again.","""User Name"" is required. Enter and try again.",module,Magento_User
-"""First Name"" is required. Enter and try again.","""First Name"" is required. Enter and try again.",module,Magento_User
-"""Last Name"" is required. Enter and try again.","""Last Name"" is required. Enter and try again.",module,Magento_User
+"""User Name"" is required. Enter and try again.","""User Name"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_User
+"""First Name"" is required. Enter and try again.","""First Name"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_User
+"""Last Name"" is required. Enter and try again.","""Last Name"" vaaditaan. Täytä tiedot ja yritä uudestaan.",module,Magento_User
 "Please enter a valid email.","Anna voimassa oleva sähköpostiosoite.",module,Magento_User
 "Password is required field.","Salasana on pakollinen kenttä.",module,Magento_User
 "Your password must be at least %1 characters.","Salasanassa pitää olla vähintään %1 merkkiä.",module,Magento_User
@@ -15317,3 +15317,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Please enter a date from the past.","Kirjoita päivämäärä menneisyydestä.",lib,web
 "custom.definition","custom.definition",lib,web
 "component.behaviours","component.behaviours",lib,web
+"Please specify a shipping method.","Määritä toimitustapa.",module,Magento_Quote
+"street","katuosoite",module,Magento_Customer
+"city","kaupunki",module,Magento_Customer
+"telephone","puhelinnumero",module,Magento_Customer
