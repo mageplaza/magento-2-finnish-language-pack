@@ -1836,8 +1836,8 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "You cleared the comparison list.","Olet tyhjentänyt vertailulistan.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Jotain meni pieleen vertailulistan tyhjennyksessä.",module,Magento_Catalog
 "You removed product %1 from the comparison list.","Poistit tuotteen %1 vertailulistalta.",module,Magento_Catalog
-"1 item","1 tuote",module,Magento_Catalog
-"%1 items","%1 tuotetta",module,Magento_Catalog
+"1 item","1 kohde",module,Magento_Catalog
+"%1 items","%1 kohdetta",module,Magento_Catalog
 "The specified Catalog media URL format is not supported.","The specified Catalog media URL format is not supported.",module,Magento_Catalog
 "Are you sure you want to remove this item from your Compare Products list?","Oletko varma, että haluat poistaa tämän tuotteen vertailusta?",module,Magento_Catalog
 "Are you sure you want to remove all items from your Compare Products list?","Oletko varma, että haluat poistaa kaikki tuotteet tuotteiden vertailulistalta?",module,Magento_Catalog
@@ -10326,7 +10326,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Back to My Reviews","Back to My Reviews",module,Magento_Review
 "Ratings Review Summary","Ratings Review Summary",module,Magento_Review
 "Be the first to review this product","Ole ensimmäinen tuotteen arvostelija",module,Magento_Review
-"Write Your Own Review","Write Your Own Review",module,Magento_Review
+"Write Your Own Review","Kirjoita arvostelusi",module,Magento_Review
 "* Required Fields","* Pakolliset kentät",module,Magento_Review
 "You're reviewing:","Olet arvostelemassa:",module,Magento_Review
 "Your Rating","Arviosi",module,Magento_Review
